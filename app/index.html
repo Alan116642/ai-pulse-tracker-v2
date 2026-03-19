@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Pulse Tracker v2</title>
+    <meta
+      name="description"
+      content="持续追踪国内外 AI 产品动态的 Live 情报台，聚焦海外硅谷一手源、实时更新、趋势判断与日报周报。"
+    />
+    <link rel="stylesheet" href="./styles.css?v=live-20260318-3" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+    <main class="shell">
+      <section class="topbar" aria-label="实时状态">
+        <div class="topbar__status">
+          <span class="status-dot" id="statusDot" aria-hidden="true"></span>
+          <div>
+            <p class="status-title" id="statusTitle">实时引擎在线</p>
+            <p class="status-copy" id="statusCopy">
+              页面每 60 秒自动更新一次最新信息，也支持手动触发完整实时抓取。
+            </p>
+          </div>
+        </div>
+        <div class="topbar__actions">
+          <div class="topbar__chips" aria-label="当前运行信息">
+            <span class="chip">Live 实时追踪</span>
+            <span class="chip">追踪窗口 3h / 6h / 12h</span>
+            <span class="chip">趋势窗口 7d / 30d / 90d</span>
+            <span class="chip chip--time">
+              <span class="chip__label">最近成功更新</span>
+              <strong class="chip__value" id="lastSuccessChip">--</strong>
+            </span>
+          </div>
+          <button class="refresh-button" id="refreshButton" type="button">
+            立即刷新
+          </button>
+        </div>
+        <p class="topbar__note" id="statusMessage">正在加载最近一次成功更新的信息…</p>
+      </section>
+
+      <section class="ticker" aria-label="实时桌面">
+        <div class="section-label">LIVE DESK</div>
+        <div class="ticker__track" id="tickerTrack"></div>
+      </section>
+
+      <section class="hero">
+        <div class="hero__copy">
+          <p class="eyebrow">AI Pulse Tracker v2</p>
+          <h1>持续追踪国内外 AI 产品动态的 Live 情报台</h1>
+          <p class="hero__text">
+            聚焦海外硅谷一手源、官方产品页、GitHub release 与国内头部平台更新，
+            持续抓取、筛选、归并并输出实时快讯、趋势判断、日报和周报。
+          </p>
+          <div class="hero__actions">
+            <a href="#stream">查看实时快讯</a>
+            <a href="#reports">查看日报周报</a>
+          </div>
+        </div>
+        <aside class="hero__aside">
+          <article class="hero__card hero__card--focus">
+            <span class="card-label">当前焦点</span>
+            <h2 id="focusTitle">正在等待最新信息…</h2>
+            <p id="focusSummary">系统会优先展示最近一次成功抓取的高价值事件。</p>
+            <div class="hero__trust" id="focusTrust"></div>
+            <a class="text-link" id="focusLink" href="#" target="_blank" rel="noreferrer">
+              打开主源
+            </a>
+          </article>
+          <div class="metric-grid" id="metricGrid"></div>
+        </aside>
+      </section>
+
+      <section class="split">
+        <article class="panel">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">Trend Lens</p>
+              <h2>趋势判断</h2>
+            </div>
+            <span class="panel__meta" id="trendTheme">--</span>
+          </div>
+          <blockquote class="analysis-quote" id="overview">
+            系统正在基于最新信息生成趋势判断。
+          </blockquote>
+          <div class="insight-grid" id="trendStats"></div>
+          <div class="observation-list" id="observationList"></div>
+        </article>
+
+        <article class="panel">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">Evidence Brief</p>
+              <h2>证据信息</h2>
+            </div>
+            <span class="panel__meta">live signals</span>
+          </div>
+          <div class="badge-row" id="themeBadges"></div>
+          <div class="evidence-grid" id="evidenceGrid"></div>
+          <div class="evidence-links" id="evidenceLinks"></div>
+        </article>
+      </section>
+
+      <section class="stream-layout" id="stream">
+        <article class="panel panel--stream">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">Live Stream</p>
+              <h2>实时快讯流</h2>
+            </div>
+            <span class="panel__meta">持续追踪国内外 AI 产品动态</span>
+          </div>
+          <div class="stream-list" id="streamList"></div>
+        </article>
+
+        <aside class="sidebar">
+          <article class="panel">
+            <div class="panel__head">
+              <div>
+                <p class="panel__eyebrow">Source Health</p>
+                <h2>重点来源池</h2>
+              </div>
+              <span class="panel__meta">source tier</span>
+            </div>
+            <div class="source-list" id="sourceList"></div>
+          </article>
+        </aside>
+      </section>
+
+      <section class="report-layout" id="reports">
+        <article class="panel report-panel">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">Daily Brief</p>
+              <h2>实时日报</h2>
+            </div>
+            <span class="panel__meta">按日压缩重点变化</span>
+          </div>
+          <div class="report-sections" id="dailySections"></div>
+        </article>
+
+        <article class="panel report-panel">
+          <div class="panel__head">
+            <div>
+              <p class="panel__eyebrow">Weekly Outlook</p>
+              <h2>趋势周报</h2>
+            </div>
+            <span class="panel__meta">沉淀近几周核心判断</span>
+          </div>
+          <div class="report-sections" id="weeklySections"></div>
+        </article>
+      </section>
+    </main>
+
+    <script src="./app.js?v=live-20260318-3"></script>
+  </body>
+</html>

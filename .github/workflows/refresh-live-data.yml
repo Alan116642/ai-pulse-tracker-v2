@@ -1,0 +1,38 @@
+name: Refresh Live Data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/30 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r backend/requirements.txt
+
+      - name: Run live pipeline
+        run: python scripts/run_pipeline.py --mode live --job-name github-actions
+
+      - name: Commit refreshed data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/dashboard_data.json data/processed/dashboard_data.json data/reports/daily_report.md data/reports/weekly_report.md data/reports/executive_summary.json
+          git diff --cached --quiet && exit 0
+          git commit -m "chore: refresh live dashboard data [skip ci]"
+          git push

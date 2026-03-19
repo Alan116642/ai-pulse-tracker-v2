@@ -1,0 +1,152 @@
+{
+  "sources": [
+    {
+      "source_name": "OpenAI News",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "high_frequency",
+      "frequency_minutes": 30,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://openai.com/news/",
+      "base_url": "https://openai.com",
+      "link_contains": "/index/"
+    },
+    {
+      "source_name": "Anthropic News",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "high_frequency",
+      "frequency_minutes": 30,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://www.anthropic.com/news",
+      "base_url": "https://www.anthropic.com",
+      "link_contains": "/news/"
+    },
+    {
+      "source_name": "Google DeepMind Blog",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "high_frequency",
+      "frequency_minutes": 30,
+      "enabled": true,
+      "mode": "rss",
+      "url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "source_name": "Meta AI Blog",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "high_frequency",
+      "frequency_minutes": 30,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://ai.meta.com/blog/",
+      "base_url": "https://ai.meta.com",
+      "link_contains": "/blog/"
+    },
+    {
+      "source_name": "GitHub OpenAI Releases",
+      "source_type": "github_release",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "high_frequency",
+      "frequency_minutes": 30,
+      "enabled": true,
+      "mode": "github_releases",
+      "url": "https://github.com/openai"
+    },
+    {
+      "source_name": "Perplexity Blog",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "high_frequency",
+      "frequency_minutes": 30,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://www.perplexity.ai/hub/blog",
+      "base_url": "https://www.perplexity.ai",
+      "link_contains": "/hub/blog/"
+    },
+    {
+      "source_name": "Cursor Changelog",
+      "source_type": "official_changelog",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "high_frequency",
+      "frequency_minutes": 30,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://www.cursor.com/changelog",
+      "base_url": "https://www.cursor.com",
+      "link_contains": "/changelog"
+    },
+    {
+      "source_name": "Hacker News AI",
+      "source_type": "community",
+      "source_tier": "T2",
+      "region": "global",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "rss",
+      "url": "https://hnrss.org/newest?q=AI"
+    },
+    {
+      "source_name": "Product Hunt AI",
+      "source_type": "community",
+      "source_tier": "T2",
+      "region": "global",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "rss",
+      "url": "https://www.producthunt.com/feed"
+    },
+    {
+      "source_name": "百度智能云千帆",
+      "source_type": "official_product_page",
+      "source_tier": "T0",
+      "region": "cn",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "single_page",
+      "url": "https://cloud.baidu.com/article/3673834",
+      "title_hint": "百度推出 ERNIE 4.5 开源系列",
+      "content_hint": "百度围绕 ERNIE 4.5 推进开源能力扩散，属于国内重点产品动态监控源。"
+    },
+    {
+      "source_name": "阿里云百炼",
+      "source_type": "official_product_page",
+      "source_tier": "T0",
+      "region": "cn",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "single_page",
+      "url": "https://www.aliyun.com/product/bailian",
+      "title_hint": "阿里云百炼产品页更新",
+      "content_hint": "阿里云百炼相关产品与平台能力变化，可作为国内平台化动态的重要信号。"
+    },
+    {
+      "source_name": "腾讯混元",
+      "source_type": "official_product_page",
+      "source_tier": "T0",
+      "region": "cn",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "single_page",
+      "url": "https://cloud.tencent.com/product/hunyuan",
+      "title_hint": "腾讯混元产品页更新",
+      "content_hint": "腾讯混元模型与平台能力变化，可作为国内大厂产品动态的重要跟进源。"
+    }
+  ]
+}
