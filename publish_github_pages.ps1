@@ -20,6 +20,9 @@ if ($currentRemote -match "origin") {
 }
 
 git push -u origin main
+if ($LASTEXITCODE -ne 0) {
+  throw "git push failed. Please check network access to github.com and try again."
+}
 
 Write-Host ""
 Write-Host "Push completed."
