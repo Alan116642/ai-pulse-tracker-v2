@@ -117,6 +117,24 @@ py -3.12 scripts\run_pipeline.py --mode live --job-name manual
 
 这样部署后老师打开的是一个公网静态站，但看到的是持续刷新的 live 数据页面。
 
+### 一键推送脚本
+
+仓库根目录已提供：
+
+- [publish_github_pages.ps1](C:\Users\ROG\Desktop\codex\publish_github_pages.ps1)
+
+使用方式：
+
+```powershell
+powershell -ExecutionPolicy Bypass -File .\publish_github_pages.ps1
+```
+
+脚本会要求输入 GitHub 仓库地址，然后自动执行：
+
+- 设置 `origin`
+- 推送 `main`
+- 提示后续开启 GitHub Pages
+
 ### 当前静态站行为
 
 - 本地打开时：
