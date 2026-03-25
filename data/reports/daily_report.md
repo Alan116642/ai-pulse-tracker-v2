@@ -1,14 +1,14 @@
 # AI Pulse Tracker 实时日报
 
 ## 今日概览
-- 最近成功更新时间：2026/3/25 23:07
+- 最近成功更新时间：2026/3/26 00:42
 - 今日核心判断：核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
 - 24 小时新事件：9
 - 高优先级事件：34
 
 ## 今日最值得看的实时信号
-- New Brunswick unveils new AI chatbot for tourists, but not without errors｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.cbc.ca/news/canada/new-brunswick/new-brunswick-tourism-ai-chatbot-explora-9.7139199
-- Measuring progress toward AGI: A cognitive framework｜来源等级 T0｜Google DeepMind Blog 发布了与 Google DeepMind Blog 相关的新产品或新版本，属于需要优先跟踪的一手产品动态。｜主源: https://deepmind.google/blog/measuring-progress-toward-agi-a-cognitive-framework/
+- Show HN: Sudo for AI agents – cryptographic delegation instead of API keys｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。｜主源: https://github.com/kanoniv/auth-action
+- Lyria 3 Pro: Create longer tracks in more｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/lyria-3-pro-create-longer-tracks-in-more/
 - Gemini 3.1 Flash-Lite: Built for intelligence at scale｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-3-1-flash-lite-built-for-intelligence-at-scale/
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
 - 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian
