@@ -12,6 +12,6 @@
 ## 本周高价值事件
 - Protecting people from harmful manipulation｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/protecting-people-from-harmful-manipulation/
 - Gemini 3.1 Flash Live: Making audio AI more natural and reliable｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/
-- Reverse-Engineering the Apollo 11 Code with AI｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.airealist.ai/p/reverse-engineering-the-apollo-11
+- Why your AI agents will turn against you｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。｜主源: https://yoloai.dev/posts/ai-agent-threat-landscape/
 - Show HN: Layer – Hide your personal AI files from Git without touching gitignore｜来源等级 T2｜OpenAI 围绕 Codex 推出新的 API 或 SDK 能力，重点强化开发者集成和工作流接入。｜主源: https://crates.io/crates/git-layer
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
