@@ -1,8 +1,8 @@
 # AI Pulse Tracker 趋势周报
 
 ## 本周判断
-- 最强趋势：开发工具化
-- 证据偏弱趋势：企业化落地
+- 最强趋势：Agent 与工作流
+- 证据偏弱趋势：Agent 与工作流
 - 热门公司：Anthropic / Google DeepMind Blog / Google DeepMind / OpenAI / Cursor
 - 热门产品：Claude / Google DeepMind Blog / Gemini / OpenAI API / Cursor
 
@@ -11,7 +11,7 @@
 
 ## 本周高价值事件
 - Gemini 3.1 Flash Live: Making audio AI more natural and reliable｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/
+- KernelEvolve: Meta's Ranking Engineer Agent Optimizes AI Infrastructure｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。｜主源: https://engineering.fb.com/2026/04/02/developer-tools/kernelevolve-how-metas-ranking-engineer-agent-optimizes-ai-infrastructure/
 - BlackSwanX,174 AI agents predict the future by fighting each other,run on Ollama｜来源等级 T2｜Meta 正在强化 Llama 4 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。｜主源: https://github.com/Kalki-M/BlackSwanX
-- ON1 Restore AI Turns Old Family Photos into Grotesque Nightmare Fuel｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新的 API 或 SDK 能力，重点强化开发者集成和工作流接入。｜主源: https://petapixel.com/2026/03/25/on1-restore-ai-turns-old-family-photos-into-grotesque-nightmare-fuel/
 - Gemma 4: Byte for byte, the most capable open models｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
