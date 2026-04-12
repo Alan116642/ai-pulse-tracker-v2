@@ -3,7 +3,7 @@
 ## 本周判断
 - 最强趋势：多模态
 - 证据偏弱趋势：Agent 与工作流
-- 热门公司：Anthropic / Google DeepMind Blog / Google DeepMind / OpenAI / Cursor
+- 热门公司：OpenAI / Anthropic / Google DeepMind Blog / Google DeepMind / Cursor
 - 热门产品：Claude / Google DeepMind Blog / Gemini / OpenAI API / Cursor
 
 ## 趋势解读
@@ -12,6 +12,6 @@
 ## 本周高价值事件
 - Gemini 3.1 Flash Live: Making audio AI more natural and reliable｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/
 - Gemma 4: Byte for byte, the most capable open models｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/
-- Distribution is the only moat AI can't kill｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://dheer.co/only-moat-ai-cant-kill/
+- Test your CV against any job description – free, open-source, AI-powered｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://github.com/simonesan-afk/CV-Praetorian-Guard
+- Show HN: Codex Workers AI Proxy – Use Cloudflare Workers AI models in Codex CLI｜来源等级 T2｜OpenAI 围绕 Codex 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://github.com/pitzcarraldo/codex-workers-ai-proxy
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
-- 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian

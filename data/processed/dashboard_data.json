@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-04-12T14:10:13.524503+00:00",
+  "generated_at": "2026-04-12T15:06:47.222385+00:00",
   "mode": "live",
   "metrics": {
-    "total_events": 9,
-    "new_events_24h": 9,
+    "total_events": 10,
+    "new_events_24h": 10,
     "first_party_ratio": 0.81,
     "overseas_ratio": 0.93,
     "high_priority_events": 34,
-    "last_success_at": "2026-04-12T14:10:13.525617+00:00",
+    "last_success_at": "2026-04-12T15:06:47.223924+00:00",
     "job_success_rate": 1.0
   },
   "overview": "核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。",
@@ -17,31 +17,31 @@
     "theme_counts": {
       "agent": 3,
       "developer_tooling": 3,
-      "multimodal": 6
+      "multimodal": 7
     },
     "theme_deltas": {
       "7d_vs_30d": {
-        "agent": 0.33,
-        "developer_tooling": 0.33,
-        "multimodal": 0.67
+        "agent": 0.3,
+        "developer_tooling": 0.3,
+        "multimodal": 0.7
       },
       "30d_vs_90d": {
-        "agent": 0.27,
-        "developer_tooling": 0.27,
-        "multimodal": 0.53
+        "agent": 0.24,
+        "developer_tooling": 0.24,
+        "multimodal": 0.56
       }
     },
     "region_ratio": {
-      "global": 0.56,
-      "cn": 0.44
+      "global": 0.5,
+      "cn": 0.5
     },
-    "first_hand_ratio": 0.89,
-    "official_ratio_in_priority": 0.89,
+    "first_hand_ratio": 0.8,
+    "official_ratio_in_priority": 0.8,
     "hot_companies": [
+      "OpenAI",
       "Anthropic",
       "Google DeepMind Blog",
       "Google DeepMind",
-      "OpenAI",
       "Cursor"
     ],
     "hot_products": [
@@ -52,8 +52,8 @@
       "Cursor"
     ],
     "release_vs_update": {
-      "release": 0.56,
-      "update": 0.44
+      "release": 0.7,
+      "update": 0.3
     },
     "top_themes": [
       "multimodal",
@@ -71,7 +71,7 @@
       "product": "Gemini",
       "event_date": "Thu, 26 Mar 2026 15:23:35 +0000",
       "core_change": "Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
-      "sources_count": 3,
+      "sources_count": 2,
       "primary_source_url": "https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/",
       "confidence": 0.99,
       "merge_type": "same_event",
@@ -89,11 +89,6 @@
         {
           "merged_event_id": "evt-003",
           "raw_item_id": "google-deepmind-blog-7",
-          "source_role": "supporting"
-        },
-        {
-          "merged_event_id": "evt-003",
-          "raw_item_id": "hacker-news-ai-8",
           "source_role": "supporting"
         },
         {
@@ -147,31 +142,6 @@
           "keep_for_analysis": 1,
           "dedupe_group_id": "google-deepmind-gemini",
           "realtime_bucket": "3h",
-          "explain_score": [
-            "已确认为 AI 产品动态。",
-            "一手源与 source tier 已进入评分。",
-            "novelty_score 体现近 7 天同公司同产品信号的新颖度。"
-          ]
-        },
-        {
-          "item_id": "hacker-news-ai-8",
-          "company": "Google DeepMind",
-          "product": "Gemini",
-          "event_type": "feature_update",
-          "summary_cn": "Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
-          "keywords": [
-            "silicon-valley"
-          ],
-          "is_first_party": 0,
-          "signal_score": 0.71,
-          "usefulness_score": 0.75,
-          "silicon_valley_score": 0.95,
-          "novelty_score": 0.74,
-          "evidence_type": "community_signal",
-          "is_product_signal": 1,
-          "keep_for_analysis": 1,
-          "dedupe_group_id": "google-deepmind-gemini",
-          "realtime_bucket": "6h",
           "explain_score": [
             "已确认为 AI 产品动态。",
             "一手源与 source tier 已进入评分。",
@@ -392,15 +362,15 @@
     },
     {
       "merged_event_id": "evt-006",
-      "canonical_title": "Distribution is the only moat AI can't kill",
+      "canonical_title": "Test your CV against any job description – free, open-source, AI-powered",
       "company": "Hacker News AI",
       "product": "Hacker News AI",
-      "event_date": "Sun, 12 Apr 2026 14:02:05 +0000",
+      "event_date": "Sun, 12 Apr 2026 14:55:13 +0000",
       "core_change": "Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
-      "sources_count": 5,
-      "primary_source_url": "https://dheer.co/only-moat-ai-cant-kill/",
+      "sources_count": 6,
+      "primary_source_url": "https://github.com/simonesan-afk/CV-Praetorian-Guard",
       "confidence": 0.99,
-      "merge_type": "event_update",
+      "merge_type": "same_event",
       "primary_source_tier": "T2",
       "trend_tags": [
         "multimodal"
@@ -412,6 +382,11 @@
         "event_update 表示同一能力演进链路中的后续补充更新。"
       ],
       "supporting_sources": [
+        {
+          "merged_event_id": "evt-006",
+          "raw_item_id": "hacker-news-ai-2",
+          "source_role": "supporting"
+        },
         {
           "merged_event_id": "evt-006",
           "raw_item_id": "hacker-news-ai-3",
@@ -429,13 +404,13 @@
         },
         {
           "merged_event_id": "evt-006",
-          "raw_item_id": "hacker-news-ai-1",
-          "source_role": "primary"
+          "raw_item_id": "hacker-news-ai-7",
+          "source_role": "supporting"
         },
         {
           "merged_event_id": "evt-006",
-          "raw_item_id": "hacker-news-ai-7",
-          "source_role": "event_update"
+          "raw_item_id": "hacker-news-ai-1",
+          "source_role": "primary"
         }
       ],
       "processed_items": [
@@ -465,6 +440,31 @@
           ]
         },
         {
+          "item_id": "hacker-news-ai-2",
+          "company": "Hacker News AI",
+          "product": "Hacker News AI",
+          "event_type": "feature_update",
+          "summary_cn": "Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
+          "keywords": [
+            "silicon-valley"
+          ],
+          "is_first_party": 0,
+          "signal_score": 0.7,
+          "usefulness_score": 0.74,
+          "silicon_valley_score": 0.95,
+          "novelty_score": 0.72,
+          "evidence_type": "community_signal",
+          "is_product_signal": 1,
+          "keep_for_analysis": 1,
+          "dedupe_group_id": "hacker-news-ai-hacker-news-ai",
+          "realtime_bucket": "6h",
+          "explain_score": [
+            "已确认为 AI 产品动态。",
+            "一手源与 source tier 已进入评分。",
+            "novelty_score 体现近 7 天同公司同产品信号的新颖度。"
+          ]
+        },
+        {
           "item_id": "hacker-news-ai-3",
           "company": "Hacker News AI",
           "product": "Hacker News AI",
@@ -477,7 +477,7 @@
           "signal_score": 0.7,
           "usefulness_score": 0.74,
           "silicon_valley_score": 0.95,
-          "novelty_score": 0.69,
+          "novelty_score": 0.71,
           "evidence_type": "community_signal",
           "is_product_signal": 1,
           "keep_for_analysis": 1,
@@ -502,7 +502,7 @@
           "signal_score": 0.69,
           "usefulness_score": 0.73,
           "silicon_valley_score": 0.95,
-          "novelty_score": 0.67,
+          "novelty_score": 0.63,
           "evidence_type": "community_signal",
           "is_product_signal": 1,
           "keep_for_analysis": 1,
@@ -524,10 +524,10 @@
             "silicon-valley"
           ],
           "is_first_party": 0,
-          "signal_score": 0.69,
-          "usefulness_score": 0.73,
+          "signal_score": 0.68,
+          "usefulness_score": 0.72,
           "silicon_valley_score": 0.95,
-          "novelty_score": 0.63,
+          "novelty_score": 0.59,
           "evidence_type": "community_signal",
           "is_product_signal": 1,
           "keep_for_analysis": 1,
@@ -543,17 +543,16 @@
           "item_id": "hacker-news-ai-7",
           "company": "Hacker News AI",
           "product": "Hacker News AI",
-          "event_type": "new_product",
-          "summary_cn": "Hacker News AI 发布了与 Hacker News AI 相关的新产品或新版本，属于需要优先跟踪的一手产品动态。",
+          "event_type": "feature_update",
+          "summary_cn": "Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
           "keywords": [
-            "launch",
             "silicon-valley"
           ],
           "is_first_party": 0,
-          "signal_score": 0.69,
-          "usefulness_score": 0.73,
+          "signal_score": 0.68,
+          "usefulness_score": 0.72,
           "silicon_valley_score": 0.95,
-          "novelty_score": 0.67,
+          "novelty_score": 0.6,
           "evidence_type": "community_signal",
           "is_product_signal": 1,
           "keep_for_analysis": 1,
@@ -568,11 +567,67 @@
       ]
     },
     {
-      "merged_event_id": "evt-009",
+      "merged_event_id": "evt-007",
+      "canonical_title": "Show HN: Codex Workers AI Proxy – Use Cloudflare Workers AI models in Codex CLI",
+      "company": "OpenAI",
+      "product": "Codex",
+      "event_date": "Sun, 12 Apr 2026 14:14:17 +0000",
+      "core_change": "OpenAI 围绕 Codex 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
+      "sources_count": 1,
+      "primary_source_url": "https://github.com/pitzcarraldo/codex-workers-ai-proxy",
+      "confidence": 0.9,
+      "merge_type": "same_event",
+      "primary_source_tier": "T2",
+      "trend_tags": [
+        "multimodal"
+      ],
+      "strongest_signal": "OpenAI 围绕 Codex 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
+      "explain_merge": [
+        "同公司、同产品、同能力方向的内容会优先归并。",
+        "主源按官方博客 > docs/changelog > GitHub release > 官方账号 > 社区 > 媒体选择。",
+        "event_update 表示同一能力演进链路中的后续补充更新。"
+      ],
+      "supporting_sources": [
+        {
+          "merged_event_id": "evt-007",
+          "raw_item_id": "hacker-news-ai-6",
+          "source_role": "primary"
+        }
+      ],
+      "processed_items": [
+        {
+          "item_id": "hacker-news-ai-6",
+          "company": "OpenAI",
+          "product": "Codex",
+          "event_type": "feature_update",
+          "summary_cn": "OpenAI 围绕 Codex 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
+          "keywords": [
+            "silicon-valley"
+          ],
+          "is_first_party": 0,
+          "signal_score": 0.75,
+          "usefulness_score": 0.79,
+          "silicon_valley_score": 0.95,
+          "novelty_score": 1.0,
+          "evidence_type": "community_signal",
+          "is_product_signal": 1,
+          "keep_for_analysis": 1,
+          "dedupe_group_id": "openai-codex",
+          "realtime_bucket": "6h",
+          "explain_score": [
+            "已确认为 AI 产品动态。",
+            "一手源与 source tier 已进入评分。",
+            "novelty_score 体现近 7 天同公司同产品信号的新颖度。"
+          ]
+        }
+      ]
+    },
+    {
+      "merged_event_id": "evt-010",
       "canonical_title": "腾讯混元产品页更新",
       "company": "Tencent",
       "product": "混元",
-      "event_date": "2026-04-12T14:10:13.475952+00:00",
+      "event_date": "2026-04-12T15:06:47.168496+00:00",
       "core_change": "Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
       "sources_count": 1,
       "primary_source_url": "https://cloud.tencent.com/product/hunyuan",
@@ -590,7 +645,7 @@
       ],
       "supporting_sources": [
         {
-          "merged_event_id": "evt-009",
+          "merged_event_id": "evt-010",
           "raw_item_id": "腾讯混元-1",
           "source_role": "primary"
         }
@@ -622,11 +677,11 @@
       ]
     },
     {
-      "merged_event_id": "evt-008",
+      "merged_event_id": "evt-009",
       "canonical_title": "阿里云百炼产品页更新",
       "company": "Alibaba Cloud",
       "product": "百炼",
-      "event_date": "2026-04-12T14:10:11.723755+00:00",
+      "event_date": "2026-04-12T15:06:45.445466+00:00",
       "core_change": "Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
       "sources_count": 1,
       "primary_source_url": "https://www.aliyun.com/product/bailian",
@@ -644,7 +699,7 @@
       ],
       "supporting_sources": [
         {
-          "merged_event_id": "evt-008",
+          "merged_event_id": "evt-009",
           "raw_item_id": "阿里云百炼-1",
           "source_role": "primary"
         }
@@ -676,11 +731,11 @@
       ]
     },
     {
-      "merged_event_id": "evt-007",
+      "merged_event_id": "evt-008",
       "canonical_title": "百度推出 ERNIE 4.5 开源系列",
       "company": "Baidu",
       "product": "ERNIE 4.5",
-      "event_date": "2026-04-12T14:10:09.779795+00:00",
+      "event_date": "2026-04-12T15:06:42.727362+00:00",
       "core_change": "Baidu 围绕 ERNIE 4.5 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
       "sources_count": 1,
       "primary_source_url": "https://cloud.baidu.com/article/3673834",
@@ -698,7 +753,7 @@
       ],
       "supporting_sources": [
         {
-          "merged_event_id": "evt-007",
+          "merged_event_id": "evt-008",
           "raw_item_id": "百度智能云千帆-1",
           "source_role": "primary"
         }
@@ -734,7 +789,7 @@
       "canonical_title": "Apr 8, 2026",
       "company": "Cursor",
       "product": "Cursor",
-      "event_date": "2026-04-12T14:10:04.944055+00:00",
+      "event_date": "2026-04-12T15:06:38.645299+00:00",
       "core_change": "Cursor 围绕 Cursor 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
       "sources_count": 7,
       "primary_source_url": "https://www.cursor.com/changelog/04-08-26",
@@ -970,7 +1025,7 @@
       "canonical_title": "Actions Automate any workflow",
       "company": "OpenAI",
       "product": "OpenAI API",
-      "event_date": "2026-04-12T14:10:04.582891+00:00",
+      "event_date": "2026-04-12T15:06:37.982680+00:00",
       "core_change": "OpenAI 正在强化 OpenAI API 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。",
       "sources_count": 9,
       "primary_source_url": "https://github.com/features/actions",
@@ -1030,7 +1085,7 @@
         },
         {
           "merged_event_id": "evt-004",
-          "raw_item_id": "hacker-news-ai-2",
+          "raw_item_id": "hacker-news-ai-8",
           "source_role": "event_update"
         }
       ],
@@ -1245,7 +1300,7 @@
           ]
         },
         {
-          "item_id": "hacker-news-ai-2",
+          "item_id": "hacker-news-ai-8",
           "company": "OpenAI",
           "product": "OpenAI API",
           "event_type": "api_sdk_update",
@@ -1277,9 +1332,9 @@
       "canonical_title": "Product Feb 17, 2026 Introducing Claude Sonnet 4.6 Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.",
       "company": "Anthropic",
       "product": "Claude",
-      "event_date": "2026-04-12T14:10:03.434626+00:00",
+      "event_date": "2026-04-12T15:06:36.712749+00:00",
       "core_change": "Anthropic 正在强化 Claude 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。",
-      "sources_count": 9,
+      "sources_count": 8,
       "primary_source_url": "https://www.anthropic.com/news/claude-sonnet-4-6",
       "confidence": 0.99,
       "merge_type": "event_update",
@@ -1333,11 +1388,6 @@
         {
           "merged_event_id": "evt-001",
           "raw_item_id": "anthropic-news-8",
-          "source_role": "event_update"
-        },
-        {
-          "merged_event_id": "evt-001",
-          "raw_item_id": "hacker-news-ai-6",
           "source_role": "event_update"
         }
       ],
@@ -1542,31 +1592,6 @@
             "一手源与 source tier 已进入评分。",
             "novelty_score 体现近 7 天同公司同产品信号的新颖度。"
           ]
-        },
-        {
-          "item_id": "hacker-news-ai-6",
-          "company": "Anthropic",
-          "product": "Claude",
-          "event_type": "feature_update",
-          "summary_cn": "Anthropic 围绕 Claude 推出新能力，显示产品功能仍在持续迭代和场景扩展。",
-          "keywords": [
-            "silicon-valley"
-          ],
-          "is_first_party": 0,
-          "signal_score": 0.69,
-          "usefulness_score": 0.73,
-          "silicon_valley_score": 0.95,
-          "novelty_score": 0.67,
-          "evidence_type": "community_signal",
-          "is_product_signal": 1,
-          "keep_for_analysis": 1,
-          "dedupe_group_id": "anthropic-claude",
-          "realtime_bucket": "6h",
-          "explain_score": [
-            "已确认为 AI 产品动态。",
-            "一手源与 source tier 已进入评分。",
-            "novelty_score 体现近 7 天同公司同产品信号的新颖度。"
-          ]
         }
       ]
     }
@@ -1584,14 +1609,14 @@
       "region": "global",
       "frequency_minutes": 30,
       "enabled": 1,
-      "last_success_at": "2026-04-12T14:10:03.434773+00:00",
+      "last_success_at": "2026-04-12T15:06:36.712885+00:00",
       "last_error": "",
       "health": {
         "source_name": "Anthropic News",
-        "last_success_at": "2026-04-12T14:10:03.434773+00:00",
+        "last_success_at": "2026-04-12T15:06:36.712885+00:00",
         "last_item_count": 8,
         "success_rate_7d": 1.0,
-        "avg_latency_ms": 4554.25,
+        "avg_latency_ms": 2160.91,
         "extractor_status": "healthy"
       }
     },
@@ -1602,14 +1627,14 @@
       "region": "global",
       "frequency_minutes": 30,
       "enabled": 1,
-      "last_success_at": "2026-04-12T14:10:04.944364+00:00",
+      "last_success_at": "2026-04-12T15:06:38.645603+00:00",
       "last_error": "",
       "health": {
         "source_name": "Cursor Changelog",
-        "last_success_at": "2026-04-12T14:10:04.944364+00:00",
+        "last_success_at": "2026-04-12T15:06:38.645603+00:00",
         "last_item_count": 7,
         "success_rate_7d": 1.0,
-        "avg_latency_ms": 329.12,
+        "avg_latency_ms": 574.15,
         "extractor_status": "healthy"
       }
     },
@@ -1620,14 +1645,14 @@
       "region": "global",
       "frequency_minutes": 30,
       "enabled": 1,
-      "last_success_at": "2026-04-12T14:10:04.582934+00:00",
+      "last_success_at": "2026-04-12T15:06:37.982722+00:00",
       "last_error": "",
       "health": {
         "source_name": "GitHub OpenAI Releases",
-        "last_success_at": "2026-04-12T14:10:04.582934+00:00",
+        "last_success_at": "2026-04-12T15:06:37.982722+00:00",
         "last_item_count": 8,
         "success_rate_7d": 1.0,
-        "avg_latency_ms": 643.27,
+        "avg_latency_ms": 753.25,
         "extractor_status": "healthy"
       }
     },
@@ -1638,14 +1663,14 @@
       "region": "global",
       "frequency_minutes": 30,
       "enabled": 1,
-      "last_success_at": "2026-04-12T14:10:03.718792+00:00",
+      "last_success_at": "2026-04-12T15:06:37.000352+00:00",
       "last_error": "",
       "health": {
         "source_name": "Google DeepMind Blog",
-        "last_success_at": "2026-04-12T14:10:03.718792+00:00",
+        "last_success_at": "2026-04-12T15:06:37.000352+00:00",
         "last_item_count": 8,
         "success_rate_7d": 1.0,
-        "avg_latency_ms": 284.01,
+        "avg_latency_ms": 287.46,
         "extractor_status": "healthy"
       }
     },
@@ -1663,7 +1688,7 @@
         "last_success_at": "",
         "last_item_count": 0,
         "success_rate_7d": 0.0,
-        "avg_latency_ms": 220.69,
+        "avg_latency_ms": 228.96,
         "extractor_status": "error: 400 Client Error: Bad Request for url: https://ai.meta.com/blog/"
       }
     },
@@ -1681,7 +1706,7 @@
         "last_success_at": "",
         "last_item_count": 0,
         "success_rate_7d": 0.0,
-        "avg_latency_ms": 36.85,
+        "avg_latency_ms": 74.25,
         "extractor_status": "error: 403 Client Error: Forbidden for url: https://openai.com/news/"
       }
     },
@@ -1699,7 +1724,7 @@
         "last_success_at": "",
         "last_item_count": 0,
         "success_rate_7d": 0.0,
-        "avg_latency_ms": 32.25,
+        "avg_latency_ms": 88.68,
         "extractor_status": "error: 403 Client Error: Forbidden for url: https://www.perplexity.ai/hub/blog"
       }
     },
@@ -1710,14 +1735,14 @@
       "region": "cn",
       "frequency_minutes": 120,
       "enabled": 1,
-      "last_success_at": "2026-04-12T14:10:09.779829+00:00",
+      "last_success_at": "2026-04-12T15:06:42.727392+00:00",
       "last_error": "",
       "health": {
         "source_name": "百度智能云千帆",
-        "last_success_at": "2026-04-12T14:10:09.779829+00:00",
+        "last_success_at": "2026-04-12T15:06:42.727392+00:00",
         "last_item_count": 1,
         "success_rate_7d": 1.0,
-        "avg_latency_ms": 2982.89,
+        "avg_latency_ms": 2405.95,
         "extractor_status": "healthy"
       }
     },
@@ -1728,14 +1753,14 @@
       "region": "cn",
       "frequency_minutes": 120,
       "enabled": 1,
-      "last_success_at": "2026-04-12T14:10:13.476024+00:00",
+      "last_success_at": "2026-04-12T15:06:47.168534+00:00",
       "last_error": "",
       "health": {
         "source_name": "腾讯混元",
-        "last_success_at": "2026-04-12T14:10:13.476024+00:00",
+        "last_success_at": "2026-04-12T15:06:47.168534+00:00",
         "last_item_count": 1,
         "success_rate_7d": 1.0,
-        "avg_latency_ms": 1752.21,
+        "avg_latency_ms": 1723.01,
         "extractor_status": "healthy"
       }
     },
@@ -1746,14 +1771,14 @@
       "region": "cn",
       "frequency_minutes": 120,
       "enabled": 1,
-      "last_success_at": "2026-04-12T14:10:11.723811+00:00",
+      "last_success_at": "2026-04-12T15:06:45.445522+00:00",
       "last_error": "",
       "health": {
         "source_name": "阿里云百炼",
-        "last_success_at": "2026-04-12T14:10:11.723811+00:00",
+        "last_success_at": "2026-04-12T15:06:45.445522+00:00",
         "last_item_count": 1,
         "success_rate_7d": 1.0,
-        "avg_latency_ms": 1943.98,
+        "avg_latency_ms": 2718.13,
         "extractor_status": "healthy"
       }
     },
@@ -1764,14 +1789,14 @@
       "region": "global",
       "frequency_minutes": 120,
       "enabled": 1,
-      "last_success_at": "2026-04-12T14:10:06.682499+00:00",
+      "last_success_at": "2026-04-12T15:06:40.146165+00:00",
       "last_error": "",
       "health": {
         "source_name": "Hacker News AI",
-        "last_success_at": "2026-04-12T14:10:06.682499+00:00",
+        "last_success_at": "2026-04-12T15:06:40.146165+00:00",
         "last_item_count": 8,
         "success_rate_7d": 1.0,
-        "avg_latency_ms": 1738.13,
+        "avg_latency_ms": 1500.56,
         "extractor_status": "healthy"
       }
     },
@@ -1782,21 +1807,21 @@
       "region": "global",
       "frequency_minutes": 120,
       "enabled": 1,
-      "last_success_at": "2026-04-12T14:10:06.796925+00:00",
+      "last_success_at": "2026-04-12T15:06:40.321433+00:00",
       "last_error": "",
       "health": {
         "source_name": "Product Hunt AI",
-        "last_success_at": "2026-04-12T14:10:06.796925+00:00",
+        "last_success_at": "2026-04-12T15:06:40.321433+00:00",
         "last_item_count": 0,
         "success_rate_7d": 1.0,
-        "avg_latency_ms": 114.43,
+        "avg_latency_ms": 175.27,
         "extractor_status": "healthy_no_new_items"
       }
     }
   ],
   "reports": {
-    "daily_markdown": "# AI Pulse Tracker 实时日报\n\n## 今日概览\n- 最近成功更新时间：2026/4/12 22:10\n- 今日核心判断：核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。\n- 24 小时新事件：9\n- 高优先级事件：34\n\n## 今日最值得看的实时信号\n- Gemini 3.1 Flash Live: Making audio AI more natural and reliable｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/\n- Gemma 4: Byte for byte, the most capable open models｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/\n- Distribution is the only moat AI can't kill｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://dheer.co/only-moat-ai-cant-kill/\n- 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan\n- 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian\n- 百度推出 ERNIE 4.5 开源系列｜来源等级 T0｜Baidu 围绕 ERNIE 4.5 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.baidu.com/article/3673834\n\n## 观察结论卡\n- 今日最值得关注变化：多模态\n- 今日海外最强信号：Product Feb 17, 2026 Introducing Claude Sonnet 4.6 Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.\n- 今日国内跟进点：百度推出 ERNIE 4.5 开源系列",
-    "weekly_markdown": "# AI Pulse Tracker 趋势周报\n\n## 本周判断\n- 最强趋势：多模态\n- 证据偏弱趋势：Agent 与工作流\n- 热门公司：Anthropic / Google DeepMind Blog / Google DeepMind / OpenAI / Cursor\n- 热门产品：Claude / Google DeepMind Blog / Gemini / OpenAI API / Cursor\n\n## 趋势解读\n- 核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。\n\n## 本周高价值事件\n- Gemini 3.1 Flash Live: Making audio AI more natural and reliable｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/\n- Gemma 4: Byte for byte, the most capable open models｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/\n- Distribution is the only moat AI can't kill｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://dheer.co/only-moat-ai-cant-kill/\n- 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan\n- 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian",
+    "daily_markdown": "# AI Pulse Tracker 实时日报\n\n## 今日概览\n- 最近成功更新时间：2026/4/12 23:06\n- 今日核心判断：核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。\n- 24 小时新事件：10\n- 高优先级事件：34\n\n## 今日最值得看的实时信号\n- Gemini 3.1 Flash Live: Making audio AI more natural and reliable｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/\n- Gemma 4: Byte for byte, the most capable open models｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/\n- Test your CV against any job description – free, open-source, AI-powered｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://github.com/simonesan-afk/CV-Praetorian-Guard\n- Show HN: Codex Workers AI Proxy – Use Cloudflare Workers AI models in Codex CLI｜来源等级 T2｜OpenAI 围绕 Codex 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://github.com/pitzcarraldo/codex-workers-ai-proxy\n- 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan\n- 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian\n\n## 观察结论卡\n- 今日最值得关注变化：多模态\n- 今日海外最强信号：Product Feb 17, 2026 Introducing Claude Sonnet 4.6 Sonnet 4.6 delivers frontier performance across coding, agents, and professional work at scale.\n- 今日国内跟进点：百度推出 ERNIE 4.5 开源系列",
+    "weekly_markdown": "# AI Pulse Tracker 趋势周报\n\n## 本周判断\n- 最强趋势：多模态\n- 证据偏弱趋势：Agent 与工作流\n- 热门公司：OpenAI / Anthropic / Google DeepMind Blog / Google DeepMind / Cursor\n- 热门产品：Claude / Google DeepMind Blog / Gemini / OpenAI API / Cursor\n\n## 趋势解读\n- 核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。\n\n## 本周高价值事件\n- Gemini 3.1 Flash Live: Making audio AI more natural and reliable｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-3-1-flash-live-making-audio-ai-more-natural-and-reliable/\n- Gemma 4: Byte for byte, the most capable open models｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/\n- Test your CV against any job description – free, open-source, AI-powered｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://github.com/simonesan-afk/CV-Praetorian-Guard\n- Show HN: Codex Workers AI Proxy – Use Cloudflare Workers AI models in Codex CLI｜来源等级 T2｜OpenAI 围绕 Codex 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://github.com/pitzcarraldo/codex-workers-ai-proxy\n- 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan",
     "executive_summary": {
       "one_liner": "核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。",
       "strongest_trend": "多模态",
@@ -1811,51 +1836,51 @@
   "job_status": [
     {
       "id": 5,
-      "run_id": "b239a0a3-9c19-4776-af72-0a84b01d07af",
+      "run_id": "b6a1ff66-0ecb-4f55-a549-168ec26c14ce",
       "job_name": "github-actions",
       "stage": "analyze",
-      "started_at": "2026-04-12T14:09:58.842063+00:00",
-      "finished_at": "2026-04-12T14:10:13.525617+00:00",
+      "started_at": "2026-04-12T15:06:34.475391+00:00",
+      "finished_at": "2026-04-12T15:06:47.223924+00:00",
       "status": "success",
       "message": "report-7d-2026-04-12"
     },
     {
       "id": 4,
-      "run_id": "b239a0a3-9c19-4776-af72-0a84b01d07af",
+      "run_id": "b6a1ff66-0ecb-4f55-a549-168ec26c14ce",
       "job_name": "github-actions",
       "stage": "merge",
-      "started_at": "2026-04-12T14:09:58.842063+00:00",
-      "finished_at": "2026-04-12T14:10:13.523488+00:00",
+      "started_at": "2026-04-12T15:06:34.475391+00:00",
+      "finished_at": "2026-04-12T15:06:47.220946+00:00",
       "status": "success",
-      "message": "events=9"
+      "message": "events=10"
     },
     {
       "id": 3,
-      "run_id": "b239a0a3-9c19-4776-af72-0a84b01d07af",
+      "run_id": "b6a1ff66-0ecb-4f55-a549-168ec26c14ce",
       "job_name": "github-actions",
       "stage": "filter",
-      "started_at": "2026-04-12T14:09:58.842063+00:00",
-      "finished_at": "2026-04-12T14:10:13.514534+00:00",
+      "started_at": "2026-04-12T15:06:34.475391+00:00",
+      "finished_at": "2026-04-12T15:06:47.208964+00:00",
       "status": "success",
       "message": "retained=42"
     },
     {
       "id": 2,
-      "run_id": "b239a0a3-9c19-4776-af72-0a84b01d07af",
+      "run_id": "b6a1ff66-0ecb-4f55-a549-168ec26c14ce",
       "job_name": "github-actions",
       "stage": "enrich",
-      "started_at": "2026-04-12T14:09:58.842063+00:00",
-      "finished_at": "2026-04-12T14:10:13.511435+00:00",
+      "started_at": "2026-04-12T15:06:34.475391+00:00",
+      "finished_at": "2026-04-12T15:06:47.204777+00:00",
       "status": "success",
       "message": "items=42"
     },
     {
       "id": 1,
-      "run_id": "b239a0a3-9c19-4776-af72-0a84b01d07af",
+      "run_id": "b6a1ff66-0ecb-4f55-a549-168ec26c14ce",
       "job_name": "github-actions",
       "stage": "collect",
-      "started_at": "2026-04-12T14:09:58.842063+00:00",
-      "finished_at": "2026-04-12T14:10:13.484444+00:00",
+      "started_at": "2026-04-12T15:06:34.475391+00:00",
+      "finished_at": "2026-04-12T15:06:47.177479+00:00",
       "status": "success",
       "message": "items=42"
     }
