@@ -32,7 +32,7 @@ const mergeLabels = {
 
 function maybeRepairMojibake(value) {
   if (typeof value !== "string" || !value) return value;
-  if (!/[ÃæåäçèéêëîïôöûüÿŒœ]/.test(value) && !/æ|å|ç|é|è|ä|ö|ü/.test(value)) {
+  if (!/[脙忙氓盲莽猫茅锚毛卯茂么枚没眉每艗艙]/.test(value) && !/忙|氓|莽|茅|猫|盲|枚|眉/.test(value)) {
     return value;
   }
   try {
@@ -48,17 +48,13 @@ function maybeRepairMojibake(value) {
 }
 
 function deepRepair(input) {
-  if (Array.isArray(input)) {
-    return input.map((item) => deepRepair(item));
-  }
+  if (Array.isArray(input)) return input.map((item) => deepRepair(item));
   if (input && typeof input === "object") {
     return Object.fromEntries(
       Object.entries(input).map(([key, value]) => [key, deepRepair(value)])
     );
   }
-  if (typeof input === "string") {
-    return maybeRepairMojibake(input);
-  }
+  if (typeof input === "string") return maybeRepairMojibake(input);
   return input;
 }
 
@@ -66,7 +62,7 @@ function cleanText(value, fallback) {
   if (!value) return fallback;
   const repaired = deepRepair(value);
   if (typeof repaired !== "string") return fallback;
-  if (/[�]/.test(repaired) || /\?{2,}/.test(repaired)) return fallback;
+  if (/[锟絔]/.test(repaired) || /\?{2,}/.test(repaired)) return fallback;
   return repaired.trim() || fallback;
 }
 
@@ -140,9 +136,7 @@ function parseReport(markdown) {
 
   for (const line of lines) {
     if (line.startsWith("#")) {
-      if (current.items.length || current.title !== "摘要") {
-        sections.push(current);
-      }
+      if (current.items.length || current.title !== "摘要") sections.push(current);
       current = { title: line.replace(/^#+\s*/, ""), items: [] };
       continue;
     }
@@ -152,10 +146,7 @@ function parseReport(markdown) {
     });
   }
 
-  if (current.items.length || !sections.length) {
-    sections.push(current);
-  }
-
+  if (current.items.length || !sections.length) sections.push(current);
   return sections;
 }
 
@@ -198,7 +189,7 @@ async function loadHealth() {
 
 function defaultCopy() {
   return IS_LOCAL
-    ? "页面每 60 秒自动更新一次最新信息，也支持手动触发完整实时抓取。"
+    ? "页面每 60 秒自动刷新一次最新信息，也支持手动触发完整实时抓取。"
     : "页面每 60 秒自动轮询一次站点最新信息，也支持手动刷新查看最近发布内容。";
 }
 
@@ -209,11 +200,8 @@ function setStatus({ online, title, copy, note, error }) {
   const noteNode = document.getElementById("statusMessage");
 
   dot.classList.toggle("offline", !online);
-  titleNode.textContent = cleanText(title, "实时引擎在线");
-  copyNode.textContent = cleanText(
-    copy,
-    defaultCopy()
-  );
+  titleNode.textContent = cleanText(title, "站点信息已更新");
+  copyNode.textContent = cleanText(copy, defaultCopy());
   noteNode.textContent = cleanText(error || note || "", "");
   noteNode.style.color = error ? "#b3473a" : "";
 }
@@ -291,8 +279,20 @@ function renderTrend(data) {
   const trendStats = [
     ["证据最强趋势", themeLabel(data.strongest_trend)],
     ["证据偏弱趋势", themeLabel(data.weakest_evidence_trend)],
-    ["热门公司", (snapshot.hot_companies || []).slice(0, 3).map((item) => cleanText(item, item)).join(" / ") || "暂无"],
-    ["热门产品", (snapshot.hot_products || []).slice(0, 3).map((item) => cleanText(item, item)).join(" / ") || "暂无"]
+    [
+      "热门公司",
+      (snapshot.hot_companies || [])
+        .slice(0, 3)
+        .map((item) => cleanText(item, item))
+        .join(" / ") || "暂无"
+    ],
+    [
+      "热门产品",
+      (snapshot.hot_products || [])
+        .slice(0, 3)
+        .map((item) => cleanText(item, item))
+        .join(" / ") || "暂无"
+    ]
   ];
 
   document.getElementById("trendStats").innerHTML = trendStats
@@ -309,7 +309,9 @@ function renderTrend(data) {
   const observations = data.observation_cards || data.reports?.observation_cards || [];
   document.getElementById("observationList").innerHTML = observations
     .slice(0, 3)
-    .map((item) => `<div class="observation-card">${escapeHtml(cleanText(item, "系统已生成今日观察结论。"))}</div>`)
+    .map(
+      (item) => `<div class="observation-card">${escapeHtml(cleanText(item, "系统已生成今日观察结论。"))}</div>`
+    )
     .join("");
 }
 
@@ -482,7 +484,7 @@ async function refreshDashboard() {
 
   setStatus({
     online: true,
-    title: "实时引擎在线",
+    title: "站点信息已更新",
     copy: defaultCopy(),
     note: IS_LOCAL ? "正在触发实时抓取，请稍候…" : "正在拉取站点最近一次发布的信息…"
   });
@@ -490,9 +492,7 @@ async function refreshDashboard() {
   try {
     if (!IS_LOCAL) {
       const latest = await loadDashboard();
-      if (!latest) {
-        throw new Error("no data");
-      }
+      if (!latest) throw new Error("no data");
       renderDashboard(latest);
       setStatus({
         online: true,
@@ -508,9 +508,7 @@ async function refreshDashboard() {
       body: JSON.stringify({ mode: "live" })
     });
 
-    if (!run || run.status !== "ok") {
-      throw new Error("run failed");
-    }
+    if (!run || run.status !== "ok") throw new Error("run failed");
 
     for (let index = 0; index < 8; index += 1) {
       const next = await loadDashboard();
@@ -559,16 +557,14 @@ async function refreshDashboard() {
 async function bootstrap() {
   const [data, health] = await Promise.all([loadDashboard(), loadHealth()]);
 
-  if (data) {
-    renderDashboard(data);
-  }
+  if (data) renderDashboard(data);
 
   if (health?.status === "ok") {
     setStatus({
       online: true,
-      title: IS_LOCAL ? "实时引擎在线" : "站点信息在线",
+      title: IS_LOCAL ? "实时引擎在线" : "站点信息已更新",
       copy: defaultCopy(),
-      note: `最新信息已同步：${formatDateTime(data?.metrics?.last_success_at || "")}`
+      note: `已同步最新信息：${formatDateTime(data?.metrics?.last_success_at || "")}`
     });
   } else {
     setStatus({
@@ -587,7 +583,7 @@ async function bootstrap() {
       renderDashboard(next);
       setStatus({
         online: true,
-        title: IS_LOCAL ? "实时引擎在线" : "站点信息在线",
+        title: IS_LOCAL ? "实时引擎在线" : "站点信息已更新",
         copy: defaultCopy(),
         note: `${IS_LOCAL ? "信息自动更新" : "站点内容已轮询更新"}：${formatDateTime(next.metrics?.last_success_at || "")}`
       });
