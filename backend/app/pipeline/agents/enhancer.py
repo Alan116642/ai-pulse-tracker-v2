@@ -12,14 +12,37 @@ class SignalEnhancerAgent:
         ("openai", ("OpenAI", "OpenAI API")),
         ("anthropic", ("Anthropic", "Claude")),
         ("claude", ("Anthropic", "Claude")),
+        ("deepseek", ("DeepSeek", "DeepSeek")),
+        ("grok", ("xAI", "Grok")),
+        ("x.ai", ("xAI", "Grok")),
         ("gemini robotics", ("Google DeepMind", "Gemini Robotics")),
         ("robotics", ("Google DeepMind", "Gemini Robotics")),
         ("gemini", ("Google DeepMind", "Gemini")),
         ("llama", ("Meta", "Llama 4")),
+        ("mistral", ("Mistral AI", "Le Chat")),
+        ("cohere", ("Cohere", "Command")),
+        ("hugging face", ("Hugging Face", "Open Models")),
+        ("huggingface", ("Hugging Face", "Open Models")),
+        ("nvidia", ("NVIDIA", "AI Stack")),
+        ("runway", ("Runway", "Runway")),
         ("ernie", ("Baidu", "ERNIE 4.5")),
+        ("qianfan", ("Baidu", "千帆")),
+        ("千帆", ("Baidu", "千帆")),
         ("hunyuan", ("Tencent", "混元")),
+        ("腾讯混元", ("Tencent", "混元")),
         ("bailian", ("Alibaba Cloud", "百炼")),
+        ("百炼", ("Alibaba Cloud", "百炼")),
         ("tongyi", ("Alibaba Cloud", "通义")),
+        ("zhipu", ("智谱", "GLM")),
+        ("智谱", ("智谱", "GLM")),
+        ("glm", ("智谱", "GLM")),
+        ("moonshot", ("月之暗面", "Kimi")),
+        ("kimi", ("月之暗面", "Kimi")),
+        ("月之暗面", ("月之暗面", "Kimi")),
+        ("minimax", ("MiniMax", "MiniMax")),
+        ("doubao", ("字节豆包", "豆包大模型")),
+        ("豆包", ("字节豆包", "豆包大模型")),
+        ("volcengine", ("字节豆包", "豆包大模型")),
         ("cursor", ("Cursor", "Cursor")),
         ("windsurf", ("Codeium", "Windsurf")),
         ("replit", ("Replit", "Agents")),
@@ -30,11 +53,15 @@ class SignalEnhancerAgent:
         "api": "api_sdk_update",
         "sdk": "api_sdk_update",
         "education": "enterprise_opening",
+        "enterprise": "enterprise_opening",
         "robotics": "feature_update",
         "open source": "open_source_release",
+        "open model": "open_source_release",
         "release": "new_product",
         "launch": "new_product",
+        "preview": "new_product",
         "changelog": "feature_update",
+        "update": "feature_update",
     }
     EVIDENCE_MAP = {
         "official_blog": "official_release",
@@ -102,11 +129,21 @@ class SignalEnhancerAgent:
             "multimodal",
             "robotics",
             "open source",
+            "open model",
             "education",
             "developer tools",
+            "reasoning",
+            "coding",
+            "voice",
+            "video",
+            "enterprise",
             "release",
             "launch",
+            "preview",
         ]:
+            if keyword in text:
+                keywords.append(keyword)
+        for keyword in ["deepseek", "kimi", "grok", "glm", "doubao", "hunyuan", "bailian"]:
             if keyword in text:
                 keywords.append(keyword)
         if item.region == "global":
@@ -130,13 +167,15 @@ class SignalEnhancerAgent:
                 for entry in past
             )
             inverse_similarity = max(0.15, 1 - ratio)
-        new_keyword_bonus = 0.15 if any(word in keywords for word in ["robotics", "education", "developer tools", "release"]) else 0.05
+        new_keyword_bonus = 0.15 if any(
+            word in keywords for word in ["robotics", "education", "developer tools", "release", "reasoning", "video"]
+        ) else 0.05
         tier_bonus = 0.15 if item.source_tier == "T0" else 0.08
         return min(1.0, inverse_similarity + new_keyword_bonus + tier_bonus)
 
     def _summary_cn(self, company: str, product: str, event_type: str) -> str:
         mapping = {
-            "agent_workflow_upgrade": f"{company} 正在强化 {product} 的 Agent 工作流能力，产品形态继续向可执行任务链路演进。",
+            "agent_workflow_upgrade": f"{company} 正在强化 {product} 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。",
             "api_sdk_update": f"{company} 围绕 {product} 推出新的 API 或 SDK 能力，重点强化开发者集成和工作流接入。",
             "enterprise_opening": f"{company} 正在把 {product} 推向平台化和企业化场景，说明竞争正在从模型能力转向交付能力。",
             "open_source_release": f"{company} 通过 {product} 强化开源路线，继续缩短先进能力向生态扩散的周期。",

@@ -51,17 +51,6 @@
       "link_contains": "/blog/"
     },
     {
-      "source_name": "GitHub OpenAI Releases",
-      "source_type": "github_release",
-      "source_tier": "T0",
-      "region": "global",
-      "priority_pool": "high_frequency",
-      "frequency_minutes": 30,
-      "enabled": true,
-      "mode": "github_releases",
-      "url": "https://github.com/openai"
-    },
-    {
       "source_name": "Perplexity Blog",
       "source_type": "official_blog",
       "source_tier": "T0",
@@ -88,6 +77,71 @@
       "link_contains": "/changelog"
     },
     {
+      "source_name": "NVIDIA Generative AI Blog",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://blogs.nvidia.com/blog/category/generative-ai/",
+      "base_url": "https://blogs.nvidia.com",
+      "link_contains": "/blog/"
+    },
+    {
+      "source_name": "Hugging Face Blog",
+      "source_type": "official_blog",
+      "source_tier": "T1",
+      "region": "global",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://huggingface.co/blog",
+      "base_url": "https://huggingface.co",
+      "link_contains": "/blog/"
+    },
+    {
+      "source_name": "Replit Updates",
+      "source_type": "official_changelog",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://docs.replit.com/updates",
+      "base_url": "https://docs.replit.com",
+      "link_contains": "/updates/"
+    },
+    {
+      "source_name": "Runway Research",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://runwayml.com/research",
+      "base_url": "https://runwayml.com",
+      "link_contains": "/research/"
+    },
+    {
+      "source_name": "Mistral AI News",
+      "source_type": "official_product_page",
+      "source_tier": "T0",
+      "region": "global",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "single_page",
+      "url": "https://mistral.ai/news/",
+      "title_hint": "Mistral AI 新闻中心更新",
+      "content_hint": "Mistral AI 官方新闻页持续发布 Le Chat、开源模型和企业能力更新，适合作为欧洲头部模型公司的动态监测源。"
+    },
+    {
       "source_name": "Hacker News AI",
       "source_type": "community",
       "source_tier": "T2",
@@ -110,6 +164,71 @@
       "url": "https://www.producthunt.com/feed"
     },
     {
+      "source_name": "DeepSeek Official",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "cn",
+      "priority_pool": "high_frequency",
+      "frequency_minutes": 30,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://www.deepseek.com/",
+      "base_url": "https://www.deepseek.com",
+      "link_contains": "mp.weixin.qq.com"
+    },
+    {
+      "source_name": "智谱新闻",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "cn",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://www.zhipuai.cn/zh/news",
+      "base_url": "https://www.zhipuai.cn",
+      "link_contains": "/zh/news/"
+    },
+    {
+      "source_name": "Kimi 开放平台博客",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "cn",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://platform.moonshot.cn/blog",
+      "base_url": "https://platform.moonshot.cn",
+      "link_contains": "/blog/posts/"
+    },
+    {
+      "source_name": "MiniMax 官方动态",
+      "source_type": "official_blog",
+      "source_tier": "T0",
+      "region": "cn",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "html_links",
+      "url": "https://www.minimaxi.com/",
+      "base_url": "https://www.minimaxi.com",
+      "link_contains": "/news/"
+    },
+    {
+      "source_name": "豆包大模型",
+      "source_type": "official_product_page",
+      "source_tier": "T0",
+      "region": "cn",
+      "priority_pool": "regular",
+      "frequency_minutes": 120,
+      "enabled": true,
+      "mode": "single_page",
+      "url": "https://www.volcengine.com/product/doubao",
+      "title_hint": "豆包大模型产品页更新",
+      "content_hint": "火山引擎豆包大模型产品页可反映模型能力、价格、场景和 API 能力变化，是国内重点平台侧动态来源。"
+    },
+    {
       "source_name": "百度智能云千帆",
       "source_type": "official_product_page",
       "source_tier": "T0",
@@ -120,7 +239,7 @@
       "mode": "single_page",
       "url": "https://cloud.baidu.com/article/3673834",
       "title_hint": "百度推出 ERNIE 4.5 开源系列",
-      "content_hint": "百度围绕 ERNIE 4.5 推进开源能力扩散，属于国内重点产品动态监控源。"
+      "content_hint": "百度围绕 ERNIE 4.5 推进开源与平台能力扩散，属于国内重点产品动态监测源。"
     },
     {
       "source_name": "阿里云百炼",
@@ -133,7 +252,7 @@
       "mode": "single_page",
       "url": "https://www.aliyun.com/product/bailian",
       "title_hint": "阿里云百炼产品页更新",
-      "content_hint": "阿里云百炼相关产品与平台能力变化，可作为国内平台化动态的重要信号。"
+      "content_hint": "阿里云百炼页面可反映模型平台、应用开发和企业接入能力变化，是国内平台化动态的重要信号。"
     },
     {
       "source_name": "腾讯混元",

@@ -39,7 +39,7 @@ class OpenAIClient:
         try:
             with urllib.request.urlopen(request, timeout=30) as response:
                 body = json.loads(response.read().decode("utf-8"))
-        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError):
+        except (urllib.error.URLError, urllib.error.HTTPError, TimeoutError, UnicodeEncodeError):
             return None
 
         outputs = []
