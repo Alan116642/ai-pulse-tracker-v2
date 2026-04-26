@@ -19,7 +19,7 @@
 
 1. 打开在线链接或 `app/index.html`
 2. 阅读 `docs/简要分析_正式提交版.docx`
-3. 阅读 `docs/说明文档_正式提交版_v3.docx`
+3. 阅读 `docs/说明文档_正式提交版_v4.docx`
 4. 如需验证本地 live 版，再运行 `start_live_windows.ps1` 或 `start_live_macos.sh`
 
 ## 这份提交包包含什么
@@ -102,4 +102,4 @@ py -3.12 scripts\run_pipeline.py --mode live --job-name manual
 ## 关键文档
 
 - 简要分析：`docs/简要分析_正式提交版.docx`
-- 说明文档：`docs/说明文档_正式提交版_v3.docx`
+- 说明文档：`docs/说明文档_正式提交版_v4.docx`
