@@ -17,9 +17,9 @@
         <div class="topbar__status">
           <span class="status-dot" id="statusDot" aria-hidden="true"></span>
           <div>
-            <p class="status-title" id="statusTitle">站点信息已更新</p>
+            <p class="status-title" id="statusTitle">实时引擎在线</p>
             <p class="status-copy" id="statusCopy">
-              页面每 60 秒自动轮询一次站点最新信息，也支持手动刷新查看最近发布内容。
+              页面每 60 秒自动更新最近一次发布的信息；在本地 live 模式下，也支持手动触发完整抓取。
             </p>
           </div>
         </div>
@@ -48,35 +48,58 @@
       <section class="hero">
         <div class="hero__copy">
           <p class="eyebrow">AI Pulse Tracker v2</p>
-          <h1>持续追踪国内外 AI 产品动态的 Live 情报台</h1>
+          <h1>把零散的 AI 产品动态整理成可读的判断</h1>
           <p class="hero__text">
-            重点抓取海外硅谷一手源、官方产品页、GitHub release 与国内头部平台更新，
-            再把零散资讯整理成高价值实时快讯、趋势判断和可直接阅读的日报周报。
+            页面不只展示“最近发生了什么”，也会把官方博客、产品页更新、GitHub release
+            和国内外头部平台动作整理成实时快讯、趋势判断、证据快照与日报周报，方便直接读出竞争方向。
           </p>
           <div class="hero__actions">
-            <a href="#stream">查看实时快讯</a>
+            <a href="#stream">查看今日快讯</a>
             <a href="#reports">查看日报周报</a>
           </div>
         </div>
         <aside class="hero__aside">
           <article class="hero__card hero__card--focus">
-            <span class="card-label">当前焦点</span>
+            <span class="card-label">本期焦点</span>
             <h2 id="focusTitle">正在等待最新信息…</h2>
             <p id="focusSummary">系统会优先展示最近一次成功抓取的高价值事件。</p>
             <div class="hero__trust" id="focusTrust"></div>
             <a class="text-link" id="focusLink" href="#" target="_blank" rel="noreferrer">
-              打开主源
+              查看主源
             </a>
           </article>
           <div class="metric-grid" id="metricGrid"></div>
         </aside>
       </section>
 
+      <section class="analysis-grid" aria-label="分析视角">
+        <article class="analysis-card">
+          <span>产品形态</span>
+          <h3>模型能力正在被重新包装成工作流产品</h3>
+          <p>语音、机器人、代码、Agent 执行与产品页更新同时出现，说明厂商关注点已经从“模型更强”转向“模型是否能进入真实场景”。</p>
+        </article>
+        <article class="analysis-card">
+          <span>竞争重心</span>
+          <h3>海外在抢入口，国内在抢承接</h3>
+          <p>硅谷厂商更强调开发入口、生态和持续更新节奏；国内厂商更强调平台接入、模型开放和场景落地效率。</p>
+        </article>
+        <article class="analysis-card">
+          <span>页面作用</span>
+          <h3>先看信号，再看证据，最后沉淀判断</h3>
+          <p>LIVE DESK 用来抓即时重点，趋势判断和证据快照负责压缩结论，日报和周报负责把一段时间的变化沉淀成可读输出。</p>
+        </article>
+        <article class="analysis-card">
+          <span>风险边界</span>
+          <h3>热度不等于留存，更新也不等于闭环</h3>
+          <p>成本、安全、稳定性和真实使用频率，仍然决定这些产品能否从“新鲜感”走到“持续使用”。</p>
+        </article>
+      </section>
+
       <section class="split">
         <article class="panel">
           <div class="panel__head">
             <div>
-              <p class="panel__eyebrow">Trend Lens</p>
+              <p class="panel__eyebrow">Business Lens</p>
               <h2>趋势判断</h2>
             </div>
             <span class="panel__meta" id="trendTheme">--</span>
@@ -91,10 +114,10 @@
         <article class="panel">
           <div class="panel__head">
             <div>
-              <p class="panel__eyebrow">Evidence Brief</p>
-              <h2>证据信息</h2>
+              <p class="panel__eyebrow">Evidence Snapshot</p>
+              <h2>证据快照</h2>
             </div>
-            <span class="panel__meta">live signals</span>
+            <span class="panel__meta">把结论落回事实上</span>
           </div>
           <div class="badge-row" id="themeBadges"></div>
           <div class="evidence-grid" id="evidenceGrid"></div>
@@ -109,7 +132,7 @@
               <p class="panel__eyebrow">Live Stream</p>
               <h2>实时快讯流</h2>
             </div>
-            <span class="panel__meta">持续追踪国内外 AI 产品动态</span>
+            <span class="panel__meta">保留事实层样本，便于回看判断依据</span>
           </div>
           <div class="stream-list" id="streamList"></div>
         </article>
@@ -121,7 +144,7 @@
                 <p class="panel__eyebrow">Source Health</p>
                 <h2>重点来源池</h2>
               </div>
-              <span class="panel__meta">source tier</span>
+              <span class="panel__meta">来源等级与稳定性</span>
             </div>
             <div class="source-list" id="sourceList"></div>
           </article>
@@ -135,7 +158,7 @@
               <p class="panel__eyebrow">Daily Brief</p>
               <h2>实时日报</h2>
             </div>
-            <span class="panel__meta">按日压缩重点变化</span>
+            <span class="panel__meta">把当天变化压成一页摘要</span>
           </div>
           <div class="report-sections" id="dailySections"></div>
         </article>
@@ -146,7 +169,7 @@
               <p class="panel__eyebrow">Weekly Outlook</p>
               <h2>趋势周报</h2>
             </div>
-            <span class="panel__meta">沉淀近几周核心判断</span>
+            <span class="panel__meta">把几周信号沉淀成一条判断</span>
           </div>
           <div class="report-sections" id="weeklySections"></div>
         </article>
