@@ -8,7 +8,7 @@
       name="description"
       content="持续追踪国内外 AI 产品动态的 Live 情报台，聚焦海外硅谷一手源、实时更新、趋势判断与日报周报。"
     />
-    <link rel="stylesheet" href="./styles.css?v=live-20260425-1" />
+    <link rel="stylesheet" href="./styles.css?v=live-20260426-2" />
   </head>
   <body>
     <div class="noise" aria-hidden="true"></div>
@@ -33,9 +33,7 @@
               <strong class="chip__value" id="lastSuccessChip">--</strong>
             </span>
           </div>
-          <button class="refresh-button" id="refreshButton" type="button">
-            立即刷新
-          </button>
+          <button class="refresh-button" id="refreshButton" type="button">立即刷新</button>
         </div>
         <p class="topbar__note" id="statusMessage">正在加载最近一次成功更新的信息…</p>
       </section>
@@ -48,10 +46,10 @@
       <section class="hero">
         <div class="hero__copy">
           <p class="eyebrow">AI Pulse Tracker v2</p>
-          <h1>把零散的 AI 产品动态整理成可读的判断</h1>
+          <h1>把零散的 AI 产品动作整理成可读的判断</h1>
           <p class="hero__text">
             页面不只展示“最近发生了什么”，也会把官方博客、产品页更新、GitHub release
-            和国内外头部平台动作整理成实时快讯、趋势判断、证据快照与日报周报，方便直接读出竞争方向。
+            和国内外头部平台动作整理成实时快讯、趋势判断、证据信息、实时日报与趋势周报，方便直接读出竞争方向。
           </p>
           <div class="hero__actions">
             <a href="#stream">查看今日快讯</a>
@@ -64,9 +62,7 @@
             <h2 id="focusTitle">正在等待最新信息…</h2>
             <p id="focusSummary">系统会优先展示最近一次成功抓取的高价值事件。</p>
             <div class="hero__trust" id="focusTrust"></div>
-            <a class="text-link" id="focusLink" href="#" target="_blank" rel="noreferrer">
-              查看主源
-            </a>
+            <a class="text-link" id="focusLink" href="#" target="_blank" rel="noreferrer">查看主源</a>
           </article>
           <div class="metric-grid" id="metricGrid"></div>
         </aside>
@@ -76,22 +72,16 @@
         <article class="analysis-card">
           <span>产品形态</span>
           <h3>模型能力正在被重新包装成工作流产品</h3>
-          <p>语音、机器人、代码、Agent 执行与产品页更新同时出现，说明厂商关注点已经从“模型更强”转向“模型是否能进入真实场景”。</p>
+          <p>
+            语音、机器人、代码、Agent 执行与产品页更新同时出现，说明厂商关注点已经从“模型更强”转向“模型是否能进入真实场景”。
+          </p>
         </article>
         <article class="analysis-card">
           <span>竞争重心</span>
           <h3>海外在抢入口，国内在抢承接</h3>
-          <p>硅谷厂商更强调开发入口、生态和持续更新节奏；国内厂商更强调平台接入、模型开放和场景落地效率。</p>
-        </article>
-        <article class="analysis-card">
-          <span>页面作用</span>
-          <h3>先看信号，再看证据，最后沉淀判断</h3>
-          <p>LIVE DESK 用来抓即时重点，趋势判断和证据快照负责压缩结论，日报和周报负责把一段时间的变化沉淀成可读输出。</p>
-        </article>
-        <article class="analysis-card">
-          <span>风险边界</span>
-          <h3>热度不等于留存，更新也不等于闭环</h3>
-          <p>成本、安全、稳定性和真实使用频率，仍然决定这些产品能否从“新鲜感”走到“持续使用”。</p>
+          <p>
+            硅谷厂商更强调开发入口、生态和持续更新节奏；国内厂商更强调平台接入、模型开放和场景落地效率。
+          </p>
         </article>
       </section>
 
@@ -104,9 +94,7 @@
             </div>
             <span class="panel__meta" id="trendTheme">--</span>
           </div>
-          <blockquote class="analysis-quote" id="overview">
-            系统正在基于最新信息生成趋势判断。
-          </blockquote>
+          <blockquote class="analysis-quote" id="overview">系统正在基于最新信息生成趋势判断。</blockquote>
           <div class="insight-grid" id="trendStats"></div>
           <div class="observation-list" id="observationList"></div>
         </article>
@@ -114,8 +102,8 @@
         <article class="panel">
           <div class="panel__head">
             <div>
-              <p class="panel__eyebrow">Evidence Snapshot</p>
-              <h2>证据快照</h2>
+              <p class="panel__eyebrow">Evidence Brief</p>
+              <h2>证据信息</h2>
             </div>
             <span class="panel__meta">把结论落回事实上</span>
           </div>
@@ -176,6 +164,6 @@
       </section>
     </main>
 
-    <script src="./app.js?v=live-20260425-1"></script>
+    <script src="./app.js?v=live-20260426-2"></script>
   </body>
 </html>

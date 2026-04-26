@@ -32,13 +32,13 @@ const mergeLabels = {
 
 function maybeRepairMojibake(value) {
   if (typeof value !== "string" || !value) return value;
-  if (!/[ÃæåäçèéêëîïôöûüÿŒœ]/.test(value) && !/æ|å|ç|é|è|ä|ö|ü/.test(value)) {
+  if (!/[脙忙氓盲莽猫茅锚毛卯茂么枚没眉每艗艙]/.test(value) && !/忙|氓|莽|茅|猫|盲|枚|眉/.test(value)) {
     return value;
   }
   try {
     const bytes = Uint8Array.from(Array.from(value, (char) => char.charCodeAt(0) & 0xff));
     const repaired = new TextDecoder("utf-8", { fatal: false }).decode(bytes);
-    if (/[一-龥]/.test(repaired) || /AI|Agent|GitHub|OpenAI|Claude|Gemini/.test(repaired)) {
+    if (/[\u4e00-\u9fff]/.test(repaired) || /AI|Agent|GitHub|OpenAI|Claude|Gemini/.test(repaired)) {
       return repaired;
     }
     return value;
@@ -48,17 +48,11 @@ function maybeRepairMojibake(value) {
 }
 
 function deepRepair(input) {
-  if (Array.isArray(input)) {
-    return input.map((item) => deepRepair(item));
-  }
+  if (Array.isArray(input)) return input.map((item) => deepRepair(item));
   if (input && typeof input === "object") {
-    return Object.fromEntries(
-      Object.entries(input).map(([key, value]) => [key, deepRepair(value)])
-    );
+    return Object.fromEntries(Object.entries(input).map(([key, value]) => [key, deepRepair(value)]));
   }
-  if (typeof input === "string") {
-    return maybeRepairMojibake(input);
-  }
+  if (typeof input === "string") return maybeRepairMojibake(input);
   return input;
 }
 
@@ -66,7 +60,7 @@ function cleanText(value, fallback) {
   if (!value) return fallback;
   const repaired = deepRepair(value);
   if (typeof repaired !== "string") return fallback;
-  if (/[�]/.test(repaired) || /\?{2,}/.test(repaired)) return fallback;
+  if (/[�]/.test(repaired) || /\?{3,}/.test(repaired)) return fallback;
   return repaired.trim() || fallback;
 }
 
@@ -140,9 +134,7 @@ function parseReport(markdown) {
 
   for (const line of lines) {
     if (line.startsWith("#")) {
-      if (current.items.length || current.title !== "摘要") {
-        sections.push(current);
-      }
+      if (current.items.length || current.title !== "摘要") sections.push(current);
       current = { title: line.replace(/^#+\s*/, ""), items: [] };
       continue;
     }
@@ -152,10 +144,7 @@ function parseReport(markdown) {
     });
   }
 
-  if (current.items.length || !sections.length) {
-    sections.push(current);
-  }
-
+  if (current.items.length || !sections.length) sections.push(current);
   return sections;
 }
 
@@ -198,7 +187,7 @@ async function loadHealth() {
 
 function defaultCopy() {
   return IS_LOCAL
-    ? "页面每 60 秒自动更新一次最新信息，也支持手动触发完整实时抓取。"
+    ? "页面每 60 秒自动更新最近一次发布的信息；在本地 live 模式下，也支持手动触发完整抓取。"
     : "页面每 60 秒自动轮询一次站点最新信息，也支持手动刷新查看最近发布内容。";
 }
 
@@ -210,10 +199,7 @@ function setStatus({ online, title, copy, note, error }) {
 
   dot.classList.toggle("offline", !online);
   titleNode.textContent = cleanText(title, "实时引擎在线");
-  copyNode.textContent = cleanText(
-    copy,
-    defaultCopy()
-  );
+  copyNode.textContent = cleanText(copy, defaultCopy());
   noteNode.textContent = cleanText(error || note || "", "");
   noteNode.style.color = error ? "#b3473a" : "";
 }
@@ -222,10 +208,7 @@ function renderFocus(data) {
   const focus = data.events?.[0] || {};
   const processed = focus.processed_items?.[0] || {};
 
-  document.getElementById("focusTitle").textContent = cleanText(
-    focus.canonical_title,
-    "正在等待最新信息…"
-  );
+  document.getElementById("focusTitle").textContent = cleanText(focus.canonical_title, "正在等待最新信息…");
   document.getElementById("focusSummary").textContent = cleanText(
     processed.summary_cn || focus.core_change,
     "系统会优先展示最近一次成功抓取的高价值事件。"
@@ -247,10 +230,7 @@ function renderMetrics(data) {
     ["高优先级事件", data.metrics?.high_priority_events || 0]
   ];
 
-  document.getElementById("lastSuccessChip").textContent = formatDateTime(
-    data.metrics?.last_success_at
-  );
-
+  document.getElementById("lastSuccessChip").textContent = formatDateTime(data.metrics?.last_success_at);
   document.getElementById("metricGrid").innerHTML = metrics
     .map(
       ([label, value]) => `
@@ -283,16 +263,19 @@ function renderTicker(data) {
 function renderTrend(data) {
   const snapshot = data.trend_snapshot || {};
   document.getElementById("trendTheme").textContent = themeLabel(data.strongest_trend);
-  document.getElementById("overview").textContent = cleanText(
-    data.overview,
-    "系统正在基于最新信息生成趋势判断。"
-  );
+  document.getElementById("overview").textContent = cleanText(data.overview, "系统正在基于最新信息生成趋势判断。");
 
   const trendStats = [
     ["证据最强趋势", themeLabel(data.strongest_trend)],
     ["仍需继续观察", themeLabel(data.weakest_evidence_trend)],
-    ["近期高频公司", (snapshot.hot_companies || []).slice(0, 3).map((item) => cleanText(item, item)).join(" / ") || "暂无"],
-    ["近期高频产品", (snapshot.hot_products || []).slice(0, 3).map((item) => cleanText(item, item)).join(" / ") || "暂无"]
+    [
+      "近期高频公司",
+      (snapshot.hot_companies || []).slice(0, 3).map((item) => cleanText(item, item)).join(" / ") || "暂无"
+    ],
+    [
+      "近期高频产品",
+      (snapshot.hot_products || []).slice(0, 3).map((item) => cleanText(item, item)).join(" / ") || "暂无"
+    ]
   ];
 
   document.getElementById("trendStats").innerHTML = trendStats
@@ -490,9 +473,7 @@ async function refreshDashboard() {
   try {
     if (!IS_LOCAL) {
       const latest = await loadDashboard();
-      if (!latest) {
-        throw new Error("no data");
-      }
+      if (!latest) throw new Error("no data");
       renderDashboard(latest);
       setStatus({
         online: true,
@@ -508,9 +489,7 @@ async function refreshDashboard() {
       body: JSON.stringify({ mode: "live" })
     });
 
-    if (!run || run.status !== "ok") {
-      throw new Error("run failed");
-    }
+    if (!run || run.status !== "ok") throw new Error("run failed");
 
     for (let index = 0; index < 8; index += 1) {
       const next = await loadDashboard();
@@ -559,9 +538,7 @@ async function refreshDashboard() {
 async function bootstrap() {
   const [data, health] = await Promise.all([loadDashboard(), loadHealth()]);
 
-  if (data) {
-    renderDashboard(data);
-  }
+  if (data) renderDashboard(data);
 
   if (health?.status === "ok") {
     setStatus({
