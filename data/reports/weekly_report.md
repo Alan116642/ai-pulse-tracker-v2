@@ -12,6 +12,6 @@
 ## 本周高价值事件
 - Gemini 3.1 Flash TTS: the next generation of expressive AI speech｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/
 - Gemma 4: Byte for byte, the most capable open models｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/gemma-4-byte-for-byte-the-most-capable-open-models/
-- OpenAI's Revolutionary AI Gadget Is a Phone?｜来源等级 T2｜OpenAI 围绕 OpenAI API 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://gizmodo.com/openai-revolutionary-ai-gadget-is-a-phone-a-stinkin-phone-2000751129
-- Show HN: Graph-flow – LangGraph-inspired AI agent workflows in Rust｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/a-agmon/rs-graph-llm
+- Can Musk force OpenAI to stay a nonprofit? AI's most anticipated trial starts｜来源等级 T2｜OpenAI 围绕 OpenAI API 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://arstechnica.com/tech-policy/2026/04/musk-and-altman-face-off-in-trial-that-will-determine-openais-future/
+- We retired an AI agent through a formal hearing｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://gist.github.com/david-steel/92fe0d4abb610303a3da0613ad5710d4
 - Gemini Robotics-ER 1.6: Powering real-world robotics tasks through enhanced embodied reasoning｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-robotics-er-1-6/
