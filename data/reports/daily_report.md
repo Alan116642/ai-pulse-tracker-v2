@@ -1,10 +1,10 @@
 # AI Pulse Tracker 实时日报
 
 ## 今日概览
-- 最近成功更新时间：2026/5/5 06:34
+- 最近成功更新时间：2026/5/5 07:58
 - 今日核心判断：核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
-- 24 小时新事件：21
-- 高优先级事件：86
+- 24 小时新事件：22
+- 高优先级事件：89
 
 ## 今日最值得看的实时信号
 - Gemini 3.1 Flash TTS: the next generation of expressive AI speech｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-3-1-flash-tts-the-next-generation-of-expressive-ai-speech/
@@ -17,4 +17,4 @@
 ## 观察结论卡
 - 今日最值得关注变化：多模态
 - 今日海外最强信号：How OpenAI delivers low-latency voice AI at scale 2026年5月4日
-- 今日国内跟进点：Kimi K2 Thinking 模型发布并开源，全面提升 Agent 和推理能力
+- 今日国内跟进点：智谱首份业绩报告发布，探索AGI智能上界 2026/03/31
