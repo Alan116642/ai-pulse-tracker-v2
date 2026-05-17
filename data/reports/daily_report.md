@@ -1,10 +1,10 @@
 # AI Pulse Tracker 实时日报
 
 ## 今日概览
-- 最近成功更新时间：2026/5/17 15:57
+- 最近成功更新时间：2026/5/17 17:55
 - 今日核心判断：核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
-- 24 小时新事件：22
-- 高优先级事件：90
+- 24 小时新事件：21
+- 高优先级事件：87
 
 ## 今日最值得看的实时信号
 - AlphaEvolve: How our Gemini-powered coding agent is scaling impact across fields｜来源等级 T0｜Google DeepMind 正在强化 Gemini 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/alphaevolve-impact/
@@ -17,4 +17,4 @@
 ## 观察结论卡
 - 今日最值得关注变化：多模态
 - 今日海外最强信号：Research
-- 今日国内跟进点：智谱首份业绩报告发布，探索AGI智能上界 2026/03/31
+- 今日国内跟进点：Kimi K2 Thinking 模型发布并开源，全面提升 Agent 和推理能力
