@@ -12,6 +12,6 @@
 ## 本周高价值事件
 - We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks｜来源等级 T0｜Google DeepMind Blog 发布了与 Google DeepMind Blog 相关的新产品或新版本，属于需要优先跟踪的一手产品动态。｜主源: https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/
 - Introducing Gemini Omni｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-omni/
-- Did Google's AI agents build an operating system for $916?｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://www.normaltech.ai/p/did-googles-ai-agents-really-build
+- 94% companies will keep spending on AI even when it fails｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://readuncut.com/94-will-keep-spending-on-ai-even-when-it-fails/
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
 - 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian
