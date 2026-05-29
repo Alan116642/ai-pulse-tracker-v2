@@ -2,7 +2,7 @@
 
 ## 本周判断
 - 最强趋势：多模态
-- 证据偏弱趋势：开源扩散
+- 证据偏弱趋势：企业化落地
 - 热门公司：OpenAI / Google DeepMind / Anthropic / Google DeepMind Blog / Cursor
 - 热门产品：OpenAI API / Codex / Claude / Google DeepMind Blog / Gemini
 
@@ -12,6 +12,6 @@
 ## 本周高价值事件
 - We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks｜来源等级 T0｜Google DeepMind Blog 发布了与 Google DeepMind Blog 相关的新产品或新版本，属于需要优先跟踪的一手产品动态。｜主源: https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/
 - Introducing Gemini Omni｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-omni/
-- Thio's Universal Agent: Let AI control anything on your computer UI, one EXE｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/ThioJoe/Thio-Universal-Agent
+- Show HN: A page that hides a sentence for AI and lets you check if it came back｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://sinceyouarrived.world/taken/agents
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
 - 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian
