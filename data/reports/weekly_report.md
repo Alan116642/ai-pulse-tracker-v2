@@ -3,15 +3,15 @@
 ## 本周判断
 - 最强趋势：多模态
 - 证据偏弱趋势：企业化落地
-- 热门公司：OpenAI / Anthropic / Google DeepMind Blog / Google DeepMind / Cursor
-- 热门产品：OpenAI API / Codex / Claude / Google DeepMind Blog / Gemini
+- 热门公司：OpenAI / Anthropic / Google DeepMind / Google DeepMind Blog / Cursor
+- 热门产品：OpenAI API / Codex / Claude / Gemini / Google DeepMind Blog
 
 ## 趋势解读
 - 核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
 
 ## 本周高价值事件
-- Hades: The malware that lies to AI security agents｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://www.infoworld.com/article/4182692/meet-hades-the-malware-that-lies-to-ai-security-agents.html
+- Accelerating Feed-Forward Networks for Disaggregated AI Inference｜来源等级 T2｜xAI 围绕 Grok 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.d-matrix.ai/how-accelerating-feed-forward-networks-in-disaggregated-inference-pipelines-power-next-generation-ai/
+- OpenLoomi: SOTA Holistic Context Graph for AI Agents｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/melandlabs/openloomi
 - We’re launching the Google DeepMind Accelerator program in Asia Pacific to tackle environmental risks｜来源等级 T0｜Google DeepMind Blog 发布了与 Google DeepMind Blog 相关的新产品或新版本，属于需要优先跟踪的一手产品动态。｜主源: https://deepmind.google/blog/were-launching-the-google-deepmind-accelerator-program-in-asia-pacific-to-tackle-environmental-risks/
-- Introducing Gemini Omni｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-omni/
+- Measuring the impact of learning with AI in Sierra Leone and beyond｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/measuring-the-impact-of-learning-with-ai-in-sierra-leone-and-beyond/
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
-- 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian
