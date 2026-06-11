@@ -13,5 +13,5 @@
 - DiffusionGemma: 4x faster text generation｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/diffusiongemma-4x-faster-text-generation/
 - Fluid, natural voice translation with Gemini 3.5 Live Translate｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/
 - Powering the future of robotics in Europe｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/
-- Adafruit files suit against Flux.ai over legal threats [pdf]｜来源等级 T2｜xAI 围绕 Grok 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://storage.courtlistener.com/recap/gov.uscourts.cand.471648/gov.uscourts.cand.471648.1.0.pdf
-- See what your AI coding agent is doing with Datadog Lapdog｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://chrisebert.net/see-what-your-ai-coding-agent-is-doing-with-datadog-lapdog/
+- Show HN: Tail Panic – a multiplayer game designed for AI agents｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://tailpanic.com
+- 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
