@@ -2,7 +2,7 @@
 
 ## 本周判断
 - 最强趋势：多模态
-- 证据偏弱趋势：企业化落地
+- 证据偏弱趋势：开源扩散
 - 热门公司：OpenAI / Google DeepMind / Anthropic / Google DeepMind Blog / Cursor
 - 热门产品：OpenAI API / Codex / Claude / Google DeepMind Blog / Gemini
 
@@ -13,5 +13,5 @@
 - Investing in multi-agent AI safety research｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/
 - Fluid, natural voice translation with Gemini 3.5 Live Translate｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/
 - Powering the future of robotics in Europe｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/
-- The most secure AI interview copilot currently on the market｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://aceloop.ai/security-model
-- 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
+- Easy Open Source AI｜来源等级 T2｜Hacker News AI 通过 Hacker News AI 强化开源路线，继续缩短先进能力向生态扩散的周期。｜主源: https://github.com/Light-Heart-Labs/DreamServer
+- Mantic Think – Private bring-your-own-key Ollama UI with AI debates｜来源等级 T2｜Meta 围绕 Llama 4 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://manticthink.com/d/tq00dkq
