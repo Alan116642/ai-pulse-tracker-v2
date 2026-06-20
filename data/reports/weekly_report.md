@@ -2,7 +2,7 @@
 
 ## 本周判断
 - 最强趋势：多模态
-- 证据偏弱趋势：开源扩散
+- 证据偏弱趋势：企业化落地
 - 热门公司：Google DeepMind / OpenAI / Anthropic / Google DeepMind Blog / Cursor
 - 热门产品：OpenAI API / Claude / Google DeepMind Blog / Gemini / Gemini Robotics
 
@@ -13,5 +13,5 @@
 - Securing the future of AI agents｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/securing-the-future-of-ai-agents/
 - Fluid, natural voice translation with Gemini 3.5 Live Translate｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/fluid-natural-voice-translation-with-gemini-35-live-translate/
 - Powering the future of robotics in Europe｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/powering-the-future-of-robotics-in-europe/
-- I created an open source app to check if a photo is from an AI or a Camera｜来源等级 T2｜Hacker News AI 通过 Hacker News AI 强化开源路线，继续缩短先进能力向生态扩散的周期。｜主源: https://github.com/Wavesonics/C2PAVerify
+- Logslim – compact test/build output before your AI agent reads it｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/P156HAM/logslim
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
