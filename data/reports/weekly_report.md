@@ -2,7 +2,7 @@
 
 ## 本周判断
 - 最强趋势：多模态
-- 证据偏弱趋势：开源扩散
+- 证据偏弱趋势：企业化落地
 - 热门公司：Google DeepMind / OpenAI / Anthropic / Google DeepMind Blog / Cursor
 - 热门产品：OpenAI API / Claude / Gemini / Google DeepMind Blog / Gemini Robotics
 
@@ -10,7 +10,7 @@
 - 核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
 
 ## 本周高价值事件
-- Open Source AI Harness Profiler – discover where tf your tokens are going｜来源等级 T2｜Hacker News AI 通过 Hacker News AI 强化开源路线，继续缩短先进能力向生态扩散的周期。｜主源: https://github.com/TryRekon/Rekon
+- Agent swarms are great for local AI｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://jonready.com/blog/posts/agent-swarms-are-great-for-local-ai.html
 - Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-36-flash-35-flash-lite-and-35-flash-cyber/
 - Our approach to bioresilience｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/our-approach-to-bioresilience/
 - Empowering India’s next generation of innovators with ATL Saathi｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/
