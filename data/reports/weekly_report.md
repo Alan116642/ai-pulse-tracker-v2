@@ -12,6 +12,6 @@
 ## 本周高价值事件
 - Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
 - Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/
-- Improvements to Web for AI Should Benefit All Users｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloudfour.com/thinks/improvements-to-web-for-ai-should-benefit-all-users/
+- A call for AI models with open weights, open source, and open corpus｜来源等级 T2｜Hacker News AI 通过 Hacker News AI 强化开源路线，继续缩短先进能力向生态扩散的周期。｜主源: https://www.argmin.net/p/public-intelligence
 - Empowering India’s next generation of innovators with ATL Saathi｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
