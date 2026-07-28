@@ -2,8 +2,8 @@
 
 ## 本周判断
 - 最强趋势：多模态
-- 证据偏弱趋势：企业化落地
-- 热门公司：Google DeepMind / OpenAI / Anthropic / Google DeepMind Blog / Cursor
+- 证据偏弱趋势：开源扩散
+- 热门公司：OpenAI / Google DeepMind / Anthropic / Google DeepMind Blog / Cursor
 - 热门产品：OpenAI API / Claude / Google DeepMind Blog / Gemini / Gemini Robotics
 
 ## 趋势解读
@@ -11,7 +11,7 @@
 
 ## 本周高价值事件
 - Accelerating the frontiers of scientific discovery: Google’s $40M commitment to the Genesis Mission｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/accelerating-the-frontiers-of-scientific-discovery-googles-40m-commitment-to-the-genesis-mission/
-- Ask HN: Sectors that are inherently resistant to AI-ification?｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://news.ycombinator.com/item?id=49088696
+- Show HN: CogniKernel; AI Coding with cross session and cross platform memory｜来源等级 T2｜OpenAI 发布了与 Codex 相关的新产品或新版本，属于需要优先跟踪的一手产品动态。｜主源: https://github.com/KanishkNoir/cognikernel
+- Show HN: An MMO for AI agents where cooking a pizza requires a civilization｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://spacemolt.beehiiv.com/p/to-make-a-pizza-you-must-first-invent-civilization
 - Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/
 - Empowering India’s next generation of innovators with ATL Saathi｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/empowering-indias-next-generation-of-innovators-with-atl-saathi/
-- 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
