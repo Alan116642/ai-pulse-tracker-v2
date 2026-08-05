@@ -11,7 +11,7 @@
 
 ## 本周高价值事件
 - We’re launching Lyria 3.5 in Google Flow Music, with advances across musicality, lyrics, vocals, and creative control｜来源等级 T0｜Google DeepMind Blog 发布了与 Google DeepMind Blog 相关的新产品或新版本，属于需要优先跟踪的一手产品动态。｜主源: https://deepmind.google/blog/were-launching-lyria-35-in-google-flow-music-with-advances-across-musicality-lyrics-vocals-and-creative-control/
-- Why the Legendary Erdős Problems Are Falling to AI｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803/
+- DuckDuckGo's Smart Glasses Have No Camera, No AI, and No Electronics｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新的 API 或 SDK 能力，重点强化开发者集成和工作流接入。｜主源: https://petapixel.com/2026/08/05/duckduckgos-smart-glasses-have-no-camera-no-ai-and-no-electronics/
 - Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/
 - Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
