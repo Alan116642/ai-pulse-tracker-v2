@@ -3,7 +3,7 @@
 ## 本周判断
 - 最强趋势：多模态
 - 证据偏弱趋势：企业化落地
-- 热门公司：Google DeepMind / OpenAI / Anthropic / Google DeepMind Blog / Cursor
+- 热门公司：OpenAI / Google DeepMind / Anthropic / Google DeepMind Blog / Cursor
 - 热门产品：OpenAI API / Claude / Google DeepMind Blog / Gemini Robotics / Gemini
 
 ## 趋势解读
@@ -11,7 +11,7 @@
 
 ## 本周高价值事件
 - Introducing Gemini 3.6 Flash, 3.5 Flash-Lite, and 3.5 Flash Cyber｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-3-6-flash-3-5-flash-lite-and-3-5-flash-cyber/
-- Show HN: Webstractor – Pay-as-You-Go Web Data API for AI Agents｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://webstractor.com/
+- Show HN: Personal AI Policy Directory｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://howiai.directory/
+- Next-Token Predictor Is An AI's Job, Not Its Species｜来源等级 T2｜OpenAI 围绕 Codex 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.astralcodexten.com/p/next-token-predictor-is-an-ais-job
 - Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
 - WeatherNext: AI model achieves breakthrough in forecasting cyclones｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/
-- 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
