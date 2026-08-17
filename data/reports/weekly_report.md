@@ -3,7 +3,7 @@
 ## 本周判断
 - 最强趋势：多模态
 - 证据偏弱趋势：企业化落地
-- 热门公司：Google DeepMind / OpenAI / Anthropic / Google DeepMind Blog / Cursor
+- 热门公司：Google DeepMind / OpenAI / Anthropic / Google DeepMind Blog / Perplexity Blog
 - 热门产品：OpenAI API / Claude / Gemini / Google DeepMind Blog / Gemini Robotics
 
 ## 趋势解读
