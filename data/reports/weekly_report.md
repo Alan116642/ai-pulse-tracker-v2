@@ -3,7 +3,7 @@
 ## 本周判断
 - 最强趋势：多模态
 - 证据偏弱趋势：企业化落地
-- 热门公司：OpenAI / Google DeepMind / Anthropic / Google DeepMind Blog / Perplexity Blog
+- 热门公司：Google DeepMind / OpenAI / Anthropic / Google DeepMind Blog / Perplexity Blog
 - 热门产品：OpenAI API / Claude / Gemini / Google DeepMind Blog / Gemini Robotics
 
 ## 趋势解读
@@ -11,7 +11,7 @@
 
 ## 本周高价值事件
 - Putting sign language AI into users’ hands｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/
-- Google Moves A2A Under Agentic AI Foundation｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://techstrong.ai/articles/google-moves-a2a-under-agentic-ai-foundation/
-- Show HN: ChatOSS – A Codex alternative for Open Source AI built on Ollama｜来源等级 T2｜OpenAI 正在强化 Codex 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://chatoss.ai
+- My AI Agents Ship Code While I Sleep. Nobody Reviews It｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://goatsquadstudios.com/blog/how-i-work-with-ai-agents-autonomously
+- Show HN: Maritime, a platform for running AI agents for $1 a month｜来源等级 T2｜DeepSeek 正在强化 DeepSeek 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://maritime.sh
 - Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
 - Introducing Gemini 3.7 Flash｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-3-7-flash/
