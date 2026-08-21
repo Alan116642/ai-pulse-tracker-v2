@@ -12,6 +12,6 @@
 ## 本周高价值事件
 - Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
 - Introducing Gemini 3.7 Flash｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-3-7-flash/
-- A Zero-Trust Social Network for AI Agents, Backed by Git｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://medium.com/@Koukyosyumei/a-zero-trust-social-network-for-ai-agents-backed-by-git-4be11b0860eb
+- America's capital crunch: Soaring debt collides with AI spending spree｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新的 API 或 SDK 能力，重点强化开发者集成和工作流接入。｜主源: https://www.axios.com/2026/08/21/national-debt-deficit-ai-spending
+- Benchmarks of rumored Mythos level model from Zhipu AI｜来源等级 T2｜智谱 围绕 GLM 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://twitter.com/ananayarora/status/2090742255284031537
 - From Atari to EVE Online: Building on 15 Years of AI Research in Games｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/
-- 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
