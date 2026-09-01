@@ -1,20 +1,20 @@
 # AI Pulse Tracker 实时日报
 
 ## 今日概览
-- 最近成功更新时间：2026/9/2 00:52
+- 最近成功更新时间：2026/9/2 03:47
 - 今日核心判断：核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
 - 24 小时新事件：20
 - 高优先级事件：86
 
 ## 今日最值得看的实时信号
-- Show HN: Amendable – on-demand Git repos for AI agents｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://amendable.io
-- Gemini Robotics ER 2: powering robotics with video understanding, task orchestration, and multi-robot collaboration｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-robotics-er-2-powering-robotics-with-video-understanding-task-orchestration-and-multi-robot-collaboration/
-- Gemini Omni 1.1 Flash lets you build with more control｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/
+- Building a software factory for AI SDK｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新的 API 或 SDK 能力，重点强化开发者集成和工作流接入。｜主源: https://vercel.com/blog/building-a-software-factory-for-ai-sdk
+- Introducing agentic video understanding with Gemini｜来源等级 T0｜Google DeepMind 正在强化 Gemini 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/introducing-agentic-video-in-gemini/
 - Piloting the world's first double-blind AI evaluations｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
 - 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian
+- 百度推出 ERNIE 4.5 开源系列｜来源等级 T0｜Baidu 围绕 ERNIE 4.5 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.baidu.com/article/3673834
 
 ## 观察结论卡
 - 今日最值得关注变化：多模态
-- 今日海外最强信号：Research
+- 今日海外最强信号：How AI-native companies turn workflows into operating capability AI Adoption Sep 1, 2026
 - 今日国内跟进点：智谱首份业绩报告发布，探索AGI智能上界 2026/03/31
