@@ -1,13 +1,13 @@
 # AI Pulse Tracker 实时日报
 
 ## 今日概览
-- 最近成功更新时间：2026/9/3 01:45
+- 最近成功更新时间：2026/9/3 04:48
 - 今日核心判断：核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
 - 24 小时新事件：20
 - 高优先级事件：85
 
 ## 今日最值得看的实时信号
-- Databricks used AI to save $1mi/year in AI spend｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://www.databricks.com/blog/how-we-eliminated-1-million-year-wasted-ai-agent-spend-one-hour
+- "AI Agents Are Now Emailing Me with Their Security Concerns"｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://www.schneier.com/blog/archives/2026/09/ai-agents-are-now-emailing-me-with-their-security-concerns.html
 - Proactive cyber defense for governments and enterprises｜来源等级 T0｜Google DeepMind Blog 正在把 Google DeepMind Blog 推向平台化和企业化场景，说明竞争正在从模型能力转向交付能力。｜主源: https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises/
 - Introducing agentic video understanding with Gemini｜来源等级 T0｜Google DeepMind 正在强化 Gemini 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/introducing-agentic-video-in-gemini/
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
