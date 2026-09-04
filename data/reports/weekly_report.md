@@ -12,6 +12,6 @@
 ## 本周高价值事件
 - Introducing agentic video understanding with Gemini｜来源等级 T0｜Google DeepMind 正在强化 Gemini 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/introducing-agentic-video-in-gemini/
 - Introducing WeatherNext 3, our most advanced and accurate global weather AI model｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/
-- Show HN: Covenant – A governance framework for multi-agent AI systems｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/asalsali/covenant-framework-community
-- Show HN: MyHandler – Local-first AI assistant for Windows, llama.cpp on Vulkan｜来源等级 T2｜Meta 围绕 Llama 4 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://myhandler.ai/
-- Eidon: Self-hosted AI assistant with Grok Bot-like agent mode｜来源等级 T2｜xAI 正在强化 Grok 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/Quack6765/Eidon-AI
+- AWS-bench: Benchmark for evaluating AI coding agents on real-world AWS tasks｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/aws-bench/aws-bench
+- Chinese businesses giving away AI tokens with coffee, credit cards, dumplings｜来源等级 T2｜DeepSeek 围绕 DeepSeek 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://restofworld.org/2026/china-ai-tokens-consumer-rewards-credit-cards-telcos-deepseek/
+- 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
