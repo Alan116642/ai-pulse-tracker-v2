@@ -1,10 +1,10 @@
 # AI Pulse Tracker 实时日报
 
 ## 今日概览
-- 最近成功更新时间：2026/9/6 03:24
+- 最近成功更新时间：2026/9/6 05:37
 - 今日核心判断：核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
-- 24 小时新事件：20
-- 高优先级事件：85
+- 24 小时新事件：19
+- 高优先级事件：82
 
 ## 今日最值得看的实时信号
 - Introducing agentic video understanding with Gemini｜来源等级 T0｜Google DeepMind 正在强化 Gemini 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/introducing-agentic-video-in-gemini/
@@ -17,4 +17,4 @@
 ## 观察结论卡
 - 今日最值得关注变化：多模态
 - 今日海外最强信号：How AI-native companies turn workflows into operating capability AI Adoption Sep 1, 2026
-- 今日国内跟进点：智谱首份业绩报告发布，探索AGI智能上界 2026/03/31
+- 今日国内跟进点：Kimi K2 Thinking 模型发布并开源，全面提升 Agent 和推理能力
