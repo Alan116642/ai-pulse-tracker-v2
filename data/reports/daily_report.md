@@ -1,7 +1,7 @@
 # AI Pulse Tracker 实时日报
 
 ## 今日概览
-- 最近成功更新时间：2026/9/21 14:57
+- 最近成功更新时间：2026/9/21 21:54
 - 今日核心判断：核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
 - 24 小时新事件：20
 - 高优先级事件：85
@@ -9,7 +9,7 @@
 ## 今日最值得看的实时信号
 - AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/
 - Introducing agentic video understanding with Gemini｜来源等级 T0｜Google DeepMind 正在强化 Gemini 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/introducing-agentic-video-in-gemini/
-- Evaluating Long-Term Memory for AI Agents: AML Cycle 2 Is Now Open｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://twitter.com/AgentMemoryL/status/2101515447816663222
+- How to Make Your AI Agent EU AI Act Compliant: A Practical Guide｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://medium.com/@MirArshadTalpur/how-to-make-your-ai-agent-eu-ai-act-compliant-a-practical-guide-b9b7dbd97b92
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
 - 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian
 - 百度推出 ERNIE 4.5 开源系列｜来源等级 T0｜Baidu 围绕 ERNIE 4.5 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.baidu.com/article/3673834
