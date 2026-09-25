@@ -11,7 +11,7 @@
 
 ## 本周高价值事件
 - Advancing Private AI Compute with secure, server-side memory｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/
-- Show HN: Vons – Jev-inspired local decisions for AI agents, in the browser｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/inlevel9-com/Vons
 - Introducing Gemini 3.8 Live with Live Avatar｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/
+- Explyt 5.20 – background task panel for AI agent runs in JetBrains IDEs｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://explyt.ai/docs/explyt-test/whats-new-explyt
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
 - 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian
