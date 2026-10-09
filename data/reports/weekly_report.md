@@ -12,6 +12,6 @@
 ## 本周高价值事件
 - Gemini 4 Argon: our next era of frontier intelligence｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-4-argon-our-next-era-of-frontier-intelligence/
 - EmbeddingGemma 2: an open, lightweight multimodal embedding model｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/
-- Why the AI Ddeterminism Argument Annoys Me｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://blog.demofox.org/2026/10/07/why-the-ai-determinism-argument-annoys-me/
+- Meatpupptry is far creepier than pure "AI" fakery｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://news.ycombinator.com/item?id=50021296
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
 - 阿里云百炼产品页更新｜来源等级 T0｜Alibaba Cloud 围绕 百炼 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.aliyun.com/product/bailian
