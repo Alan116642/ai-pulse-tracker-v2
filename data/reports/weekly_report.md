@@ -12,6 +12,6 @@
 ## 本周高价值事件
 - Developing Gemini 4 Argon responsibly and safely｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/developing-gemini-4-argon-responsibly-and-safely/
 - Gemini 4 Argon for Robotics｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-4-argon-for-robotics/
-- Show HN: Airlock, which sandboxes AI agents, is available on the Mac App Store｜来源等级 T2｜OpenAI 正在强化 Codex 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://airlock.sorrel.systems
-- Show HN: Linden – a rule based verification layer for AI agents｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://app.trustlinden.com/
+- Messaging for AI Agents｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://trycrabmail.com/
+- Show HN: Mnemolith – AI coding memory that goes stale when your code changes｜来源等级 T2｜OpenAI 正在强化 Codex 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/anishchugh05/mnemolith
 - Beyond tree cover: mapping the world’s forest types｜来源等级 T0｜Google DeepMind Blog 围绕 Google DeepMind Blog 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/
