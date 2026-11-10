@@ -2,7 +2,7 @@
 
 ## 本周判断
 - 最强趋势：多模态
-- 证据偏弱趋势：开源扩散
+- 证据偏弱趋势：企业化落地
 - 热门公司：Anthropic / Google DeepMind / Google DeepMind Blog / Cursor / NVIDIA
 - 热门产品：Claude / Gemini / Google DeepMind Blog / Cursor / AI Stack
 
@@ -10,7 +10,7 @@
 - 核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
 
 ## 本周高价值事件
-- Toptal AI – Full-Stack AI Services Company in the World for Agent Creation｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://www.toptal.ai/
+- I Access Auditor – see and revoke what your AI coding agents can access｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/dirmedmr-alt/ai-access-auditor
 - Agentic cheminformatics with Google Antigravity｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/agentic-cheminformatics-with-google-antigravity/
 - Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips/
 - 腾讯混元产品页更新｜来源等级 T0｜Tencent 围绕 混元 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://cloud.tencent.com/product/hunyuan
