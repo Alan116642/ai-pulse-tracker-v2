@@ -1,13 +1,13 @@
 # AI Pulse Tracker 实时日报
 
 ## 今日概览
-- 最近成功更新时间：2026/11/11 17:45
+- 最近成功更新时间：2026/11/12 01:46
 - 今日核心判断：核心变化：AI 产品竞争正从单点模型能力转向 Agent 执行、开发入口与多模态场景落地。
 - 24 小时新事件：17
 - 高优先级事件：70
 
 ## 今日最值得看的实时信号
-- An AI flyer designer that generates designs with code, not images｜来源等级 T2｜Hacker News AI 围绕 Hacker News AI 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://www.tryanvil.dev/
+- I found an API key leak in MLflow, and why your AI agent may have one too｜来源等级 T2｜Hacker News AI 正在强化 Hacker News AI 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://github.com/ralis-ai/weir/blob/main/docs/cve-2026-116691.md
 - Gemini 4 Carbon is now available｜来源等级 T0｜Google DeepMind 围绕 Gemini 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-4-carbon-is-now-available/
 - Introducing AlphaProof Code: a breakthrough in verifying complex software at depth｜来源等级 T0｜Google DeepMind Blog 正在强化 Google DeepMind Blog 的 Agent 工作流能力，说明产品形态继续向可执行任务链路演进。｜主源: https://deepmind.google/blog/introducing-alphaproof-code/
 - Gemini Robotics 2.5 accelerates real-world general dexterity｜来源等级 T0｜Google DeepMind 围绕 Gemini Robotics 推出新能力，显示产品功能仍在持续迭代和场景扩展。｜主源: https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence/
